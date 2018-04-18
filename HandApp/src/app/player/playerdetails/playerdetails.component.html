@@ -4,7 +4,7 @@
     <mat-card-title><h3>{{selectedPlayer.name}}</h3> {{selectedPlayer.surname}}</mat-card-title>
     <mat-card-subtitle>Numéro {{selectedPlayer.number}}</mat-card-subtitle>
   </mat-card-header>
-  <img mat-card-image src="../../../assets/img/avatar.png" alt="Photo of Handball player {{selectedPlayer.name}}">
+  <img mat-card-image src="{{selectedPlayer.photo}}" alt="Photo of Handball player {{selectedPlayer.name}}">
   <mat-card-content>
     <p>
       Poste: {{selectedPlayer.poste}} Match joués:{{selectedPlayer.matchcount}}

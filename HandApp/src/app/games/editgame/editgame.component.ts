@@ -80,41 +80,47 @@ export class EditgameComponent implements OnInit {
     const gameToAdd = new Game(null, date , value.gameHome_Team, value.gameAway_Team, value.gameRoster, passed);
 
     if (this.editMode == true) {
-      gameToAdd.id = this.editedGameId;
-      this.dataStorageService.updateGame(gameToAdd).subscribe();
-      this.gameStore.dispatch(new GameActions.UpdateGames({game: gameToAdd, editedGameIndex: this.editedGameId}));
-    } else {
+      gameToAdd.id = this.editedGame.id;
+      this.dataStorageService.updateGame(gameToAdd).subscribe(
+        (game) => { this.games.splice(+game.id, 1, game);
+        });
+      this.gameStore.dispatch( new GameActions.UpdateGames({game: gameToAdd, editedGameIndex: gameToAdd.id}));
+    }    else {
       this.gameState.subscribe((gameSate) => {
-        gameSate.games.length <= 0 ? gameToAdd.id = 1 : gameToAdd.id = gameSate.games.length;
+        gameSate.games.length <= 0 || gameSate == null ? gameToAdd.id = 1 : gameToAdd.id = gameSate.games.length;
       });
       this.gameStore.dispatch(new GameActions.AddGames(gameToAdd));
-      this.dataStorageService.addGame(gameToAdd);
+      this.dataStorageService.addGame(gameToAdd).subscribe();
     }
     this.stopEdit();
+    const dataGame = this.initDataGames.initGameState();
+    this.gameState = dataGame['gamesState'];
   }
 
   onSendRoster(){
     const value = this.gameForm.value;
-    var name: string;
-    for( let player of value.roster)
+    var name;
+    const date: string = moment(value.date).format('DD-MM-YYYY');
+    var hometeam: string = value.gameHome_Team;
+    var awayteam: string = value.gameAway_Team;
+    for( let player of value.gameRoster)
     {
-     name = name + '' + player.name;
+     name = name!= null ? name + ' ' + player.name : ' ' + player.name;
     }
-    const message = new Message(name); console.log(message);
-    this.dataStorageService.sendMessage(message);
+    const message = new Message('L\'effectif pour ' + hometeam + ' contre ' + awayteam + ' le ' + date + ' est :' + name);
+    this.dataStorageService.sendMessage(message).subscribe();
   }
 
   formUpdateInit() {
     this.formInit();
     this.route.params.subscribe(
       (params: Params) => {
-        if (params.id != null) {
-          this.editedGameId = params.id;
+        if (params['id'] != null) {
+          this.editedGameId = +params['id'];
           this.editMode = true;
           this.gameState.subscribe(
             (gamesState) => {
-              this.editedGame = gamesState.games.find(Game => Game.id == params.id);
-              this.editedGameId = this.editedGame.id;
+              this.editedGame = gamesState.games.find(Game => Game.id == +params['id']);
               this.formInit();
             });
         }

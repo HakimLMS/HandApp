@@ -37,7 +37,7 @@ class TwitterService {
         );
         echo $this->exchange->buildOauth($url, 'POST')
                 ->setPostfields(array('screen_name' => 'TacHandball', 'skip_status' => '1', 'status' => $message))
-                ->performRequest();
+                ->performRequest(true, array(CURLOPT_SSL_VERIFYHOST => 0, CURLOPT_SSL_VERIFYPEER => 0));
         
     }
     

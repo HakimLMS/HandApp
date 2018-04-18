@@ -1,13 +1,16 @@
 import { Injectable } from '@angular/core';
+import {Observable} from "rxjs/Observable";
 
 const TOKEN_KEY = "AuthToken"
 
 @Injectable()
 export class TokenStorageService {
-
   constructor() { }
 
+
+
   signOut() {
+
     window.sessionStorage.removeItem(TOKEN_KEY);
     window.sessionStorage.clear();
   }
@@ -19,7 +22,8 @@ export class TokenStorageService {
   }
 
   public getToken(){
-    return sessionStorage.getItem(TOKEN_KEY);
+    return window.sessionStorage.getItem(TOKEN_KEY);
   }
+
 
 }

@@ -25,13 +25,16 @@ export class GameComponent implements OnInit {
   }
 
   deleteGame(id: number){
-    var gameToDelete;
+    console.log(id);
     this.gamesState.subscribe((value:{games: Game[]}) => {
       const gamesArray = value.games;
-      gameToDelete = gamesArray.find(Game => Game.id == id);
-      this.dataStorage.deleteGame(gameToDelete);
-      this.store.dispatch(new GameActions.DeleteGames(gameToDelete));
-    })
+      var gameToDelete;
+      this.dataStorage.getGame(id).subscribe((game) => {gameToDelete = game;
+        this.dataStorage.deleteGame(gameToDelete);
+        this.store.dispatch(new GameActions.DeleteGames({game: gameToDelete}));
+      });
+
+    });
 }
 
   onGameDetails(gameId: number){

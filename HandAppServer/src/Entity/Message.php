@@ -16,9 +16,12 @@ class Message
      */
     private $id;
     
+     /**
+     * @ORM\Column(type="string")
+     */
     private $message;
     
-    function getMessage() {
+    public function getMessage() {
         return $this->message;
     }
 

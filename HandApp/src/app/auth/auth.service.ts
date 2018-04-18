@@ -21,7 +21,7 @@ export class AuthService {
 
 
     console.log(httpOptions + ' ' + credentials);
-    return this.http.post('http://92.222.217.92/api/login_check', credentials, httpOptions);
+    return this.http.post('http://localhost/Projet_6/HandAppServer/public/index.php/api/login_check', credentials, httpOptions);
 
   }
 

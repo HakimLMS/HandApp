@@ -38,8 +38,8 @@ export class LoginComponent implements OnInit {
   login() {
     this.authService.attemptAuth(this._username, this._password).subscribe(
       (data) => {
-        this.token.saveToken(data.token);
-        this.router.navigate(['/']);
+                this.token.saveToken(data.token);
+                this.router.navigate(['/games']);
       })
   }
 

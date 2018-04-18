@@ -82,7 +82,7 @@ export class EditplayerComponent implements OnInit {
 
   onSubmit() {
     const value = this.playerForm.value;
-    const playerToAdd = new Player(null, value.name, value.surname, value.number, '../../assets/img/avatar.png', value.poste, value.matchcount);
+    const playerToAdd = new Player(null, value.name, value.surname, value.number, './assets/img/avatar.png', value.poste, value.matchcount);
 
     if(this.editMode == true) {
       playerToAdd.id = this.selectedPlayer.id;

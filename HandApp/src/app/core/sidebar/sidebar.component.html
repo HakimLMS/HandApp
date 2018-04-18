@@ -2,9 +2,9 @@
 
   <mat-nav-list class="nav-button">
     <mat-list class="user" *ngIf="token == true">
-      <img mat-list-avatar src="../../../assets/img/Taclogo.png" alt="User Logo">
+      <img mat-list-avatar src="./assets/img/Taclogo.png" alt="User Logo">
       <h2>Tac Handball</h2>
-      <a (click)="logout()"><i class="material-icons">vpn_key</i>Déconnectez-vous</a>
+      <button mat-button (click)="logout()"><i class="material-icons">vpn_key</i>Déconnectez-vous</button>
     </mat-list>
     <mat-list class="user" *ngIf="token == false">
       <a routerLink="/login">Connectez-vous</a>

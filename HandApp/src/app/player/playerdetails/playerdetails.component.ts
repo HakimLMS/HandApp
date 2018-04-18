@@ -33,7 +33,7 @@ export class PlayerdetailsComponent implements OnInit {
   }
 
   onDelete(){
-    this.dataStorage.deletePlayer(this.selectedPlayer);
+    this.dataStorage.deletePlayer(this.selectedPlayer).subscribe();
     this.store.dispatch(new PlayerActions.DeletePlayer({player: this.selectedPlayer}));
     this.router.navigate(['players/']);
   }

@@ -10,8 +10,8 @@ const routes: Routes = [
       {path: 'details/:id', component: GamedetailsComponent},
       {path: 'edit', component: EditgameComponent },
       {path: 'edit/:id', component: EditgameComponent}
-    //], canActivate: [AuthGuardService]},
-    ]},
+    ], canActivate: [AuthGuardService]},
+
   ];
 
 @NgModule({

@@ -9,7 +9,7 @@
     <div class="card-part">
       <mat-list>
         <mat-list-item *ngFor="let player of (playersState | async).players">
-          <img matListAvatar src="../../assets/img/avatar.png" [alt]="'photo de' + player.name">
+          <img matListAvatar src="{{player.photo}}" [alt]="'photo de' + player.name">
           <p matLine> {{player.name}} {{player.surname}}, N°{{player.number}}, {{player.poste}}</p>
           <div class="button-row">
             <button mat-icon-button (click)="onListPlayerClicked(player.id)" style="cursor: pointer"><span class="material-icons">info_outline</span></button>

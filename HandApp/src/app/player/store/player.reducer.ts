@@ -12,17 +12,7 @@ export interface State {
 }
 
 const initialState: State = {
-  players: [
-    new Player( 1, 'Doe', 'John',  10, 'avatar.png', 'Arrière', '0'),
-    new Player( 2, 'Doe', 'John',  7, 'avatar.png', 'Arrière', '0'),
-    new Player( 3, 'Doe', 'John',  8, 'avatar.png', 'Demi', '0'),
-    new Player( 4, 'Doe', 'John',  20, 'avatar.png', 'Demi', '0'),
-    new Player( 5, 'Doe', 'John',  16, 'avatar.png', 'Ailier', '0'),
-    new Player( 6, 'Doe', 'John',  17, 'avatar.png', 'Ailier', '0'),
-    new Player( 7, 'Doe', 'John',  12, 'avatar.png', 'Pïvot', '0'),
-    new Player( 8, 'Doe', 'John',  2, 'avatar.png', 'Gardien', '0'),
-    new Player( 9, 'Doe', 'John',  1, 'avatar.png', 'Gardien', '0'),
-    ],
+  players: [],
   editedPlayer: null,
   editedPlayerIndex: -1
 }

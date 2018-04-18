@@ -17,8 +17,9 @@
             <mat-option *ngFor="let player of (playersState| async).players" type="checkbox"  [value]="player">{{player.name}} {{player.surname}}, N°{{player.number}}, {{player.poste}},</mat-option>
           </mat-select>
         </mat-form-field><br>
-        <button mat-button type="submit" [disabled]="!gameForm.valid"> Enregistrer </button>
+        <button mat-button type="submit" [disabled]="!gameForm.valid" > Enregistrer </button>
         <button mat-button type="submit" (click)="onSendRoster()" [disabled]="gameRoster.value == null && !gameForm.valid"> Envoyer effectif </button>
       </form>
+
   </mat-card-content>
 </mat-card>

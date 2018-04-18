@@ -4,7 +4,7 @@ import {HomeComponent} from "./core/home/home.component";
 import {AuthGuardService} from "./shared/guards/auth-guard.service";
 
 const routes : Routes = [
-  { path: '', component: HomeComponent, canActivate: [AuthGuardService]}
+  { path: '', redirectTo: '/login', pathMatch: 'full'}
 ]
 
 @NgModule({

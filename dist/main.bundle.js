@@ -293,8 +293,6 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRoutingModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__core_home_home_component__ = __webpack_require__("./src/app/core/home/home.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_guards_auth_guard_service__ = __webpack_require__("./src/app/shared/guards/auth-guard.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -303,10 +301,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 
 
-
-
 var routes = [
-    { path: '', component: __WEBPACK_IMPORTED_MODULE_2__core_home_home_component__["a" /* HomeComponent */], canActivate: [__WEBPACK_IMPORTED_MODULE_3__shared_guards_auth_guard_service__["a" /* AuthGuardService */]] }
+    { path: '', redirectTo: '/login', pathMatch: 'full' }
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
@@ -395,38 +391,34 @@ var AppComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/platform-browser.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_component__ = __webpack_require__("./src/app/app.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_auth_signin_signin_component__ = __webpack_require__("./src/app/core/auth/signin/signin.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__core_auth_signup_signup_component__ = __webpack_require__("./src/app/core/auth/signup/signup.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_routing_module__ = __webpack_require__("./src/app/app-routing.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_material__ = __webpack_require__("./node_modules/@angular/material/esm5/material.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_platform_browser_animations__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/animations.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__core_header_header_module__ = __webpack_require__("./src/app/core/header/header.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__core_sidebar_sidebar_component__ = __webpack_require__("./src/app/core/sidebar/sidebar.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__angular_cdk_layout__ = __webpack_require__("./node_modules/@angular/cdk/esm5/layout.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__player_player_module__ = __webpack_require__("./src/app/player/player.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ngrx_store__ = __webpack_require__("./node_modules/@ngrx/store/@ngrx/store.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__player_store_player_reducer__ = __webpack_require__("./src/app/player/store/player.reducer.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__shared_services_data_storage_service__ = __webpack_require__("./src/app/shared/services/data-storage.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__angular_common_http__ = __webpack_require__("./node_modules/@angular/common/esm5/http.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__shared_services_CustomNumberValidator__ = __webpack_require__("./src/app/shared/services/CustomNumberValidator.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__games_game_module__ = __webpack_require__("./src/app/games/game.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__games_store_game_reducer__ = __webpack_require__("./src/app/games/store/game.reducer.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__angular_forms__ = __webpack_require__("./node_modules/@angular/forms/esm5/forms.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__shared_services_data_player_init_service__ = __webpack_require__("./src/app/shared/services/data-player-init.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__shared_services_data_game_init_service__ = __webpack_require__("./src/app/shared/services/data-game-init.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__auth_auth_service__ = __webpack_require__("./src/app/auth/auth.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__shared_services_token_interceptor_service__ = __webpack_require__("./src/app/shared/services/token-interceptor.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__auth_auth_module__ = __webpack_require__("./src/app/auth/auth.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__shared_services_token_storage_service__ = __webpack_require__("./src/app/shared/services/token-storage.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__shared_guards_auth_guard_service__ = __webpack_require__("./src/app/shared/guards/auth-guard.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_routing_module__ = __webpack_require__("./src/app/app-routing.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_material__ = __webpack_require__("./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_platform_browser_animations__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/animations.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_header_header_module__ = __webpack_require__("./src/app/core/header/header.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__core_sidebar_sidebar_component__ = __webpack_require__("./src/app/core/sidebar/sidebar.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_cdk_layout__ = __webpack_require__("./node_modules/@angular/cdk/esm5/layout.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__player_player_module__ = __webpack_require__("./src/app/player/player.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ngrx_store__ = __webpack_require__("./node_modules/@ngrx/store/@ngrx/store.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__player_store_player_reducer__ = __webpack_require__("./src/app/player/store/player.reducer.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__shared_services_data_storage_service__ = __webpack_require__("./src/app/shared/services/data-storage.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__angular_common_http__ = __webpack_require__("./node_modules/@angular/common/esm5/http.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__shared_services_CustomNumberValidator__ = __webpack_require__("./src/app/shared/services/CustomNumberValidator.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__games_game_module__ = __webpack_require__("./src/app/games/game.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__games_store_game_reducer__ = __webpack_require__("./src/app/games/store/game.reducer.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__angular_forms__ = __webpack_require__("./node_modules/@angular/forms/esm5/forms.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__shared_services_data_player_init_service__ = __webpack_require__("./src/app/shared/services/data-player-init.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__shared_services_data_game_init_service__ = __webpack_require__("./src/app/shared/services/data-game-init.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__auth_auth_service__ = __webpack_require__("./src/app/auth/auth.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__shared_services_token_interceptor_service__ = __webpack_require__("./src/app/shared/services/token-interceptor.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__auth_auth_module__ = __webpack_require__("./src/app/auth/auth.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__shared_services_token_storage_service__ = __webpack_require__("./src/app/shared/services/token-storage.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__shared_guards_auth_guard_service__ = __webpack_require__("./src/app/shared/guards/auth-guard.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-
-
 
 
 
@@ -459,36 +451,34 @@ var AppModule = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["K" /* NgModule */])({
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_2__app_component__["a" /* AppComponent */],
-                __WEBPACK_IMPORTED_MODULE_3__core_auth_signin_signin_component__["a" /* SigninComponent */],
-                __WEBPACK_IMPORTED_MODULE_4__core_auth_signup_signup_component__["a" /* SignupComponent */],
-                __WEBPACK_IMPORTED_MODULE_9__core_sidebar_sidebar_component__["a" /* SidebarComponent */]
+                __WEBPACK_IMPORTED_MODULE_7__core_sidebar_sidebar_component__["a" /* SidebarComponent */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
-                __WEBPACK_IMPORTED_MODULE_19__angular_forms__["i" /* ReactiveFormsModule */],
-                __WEBPACK_IMPORTED_MODULE_17__games_game_module__["a" /* GamesModule */],
-                __WEBPACK_IMPORTED_MODULE_24__auth_auth_module__["a" /* AuthModule */],
-                __WEBPACK_IMPORTED_MODULE_15__angular_common_http__["c" /* HttpClientModule */],
-                __WEBPACK_IMPORTED_MODULE_6__angular_material__["o" /* MatToolbarModule */],
-                __WEBPACK_IMPORTED_MODULE_6__angular_material__["h" /* MatListModule */],
-                __WEBPACK_IMPORTED_MODULE_5__app_routing_module__["a" /* AppRoutingModule */],
-                __WEBPACK_IMPORTED_MODULE_8__core_header_header_module__["a" /* HeaderModule */],
-                __WEBPACK_IMPORTED_MODULE_11__player_player_module__["a" /* PlayerModule */],
-                __WEBPACK_IMPORTED_MODULE_6__angular_material__["n" /* MatSidenavModule */],
-                __WEBPACK_IMPORTED_MODULE_7__angular_platform_browser_animations__["b" /* NoopAnimationsModule */],
-                __WEBPACK_IMPORTED_MODULE_7__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
-                __WEBPACK_IMPORTED_MODULE_12__ngrx_store__["b" /* StoreModule */].forRoot({ players: __WEBPACK_IMPORTED_MODULE_13__player_store_player_reducer__["a" /* PlayerReducer */], games: __WEBPACK_IMPORTED_MODULE_18__games_store_game_reducer__["a" /* GameReducer */] }),
+                __WEBPACK_IMPORTED_MODULE_17__angular_forms__["i" /* ReactiveFormsModule */],
+                __WEBPACK_IMPORTED_MODULE_15__games_game_module__["a" /* GamesModule */],
+                __WEBPACK_IMPORTED_MODULE_22__auth_auth_module__["a" /* AuthModule */],
+                __WEBPACK_IMPORTED_MODULE_13__angular_common_http__["c" /* HttpClientModule */],
+                __WEBPACK_IMPORTED_MODULE_4__angular_material__["o" /* MatToolbarModule */],
+                __WEBPACK_IMPORTED_MODULE_4__angular_material__["h" /* MatListModule */],
+                __WEBPACK_IMPORTED_MODULE_3__app_routing_module__["a" /* AppRoutingModule */],
+                __WEBPACK_IMPORTED_MODULE_6__core_header_header_module__["a" /* HeaderModule */],
+                __WEBPACK_IMPORTED_MODULE_9__player_player_module__["a" /* PlayerModule */],
+                __WEBPACK_IMPORTED_MODULE_4__angular_material__["n" /* MatSidenavModule */],
+                __WEBPACK_IMPORTED_MODULE_5__angular_platform_browser_animations__["b" /* NoopAnimationsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
+                __WEBPACK_IMPORTED_MODULE_10__ngrx_store__["b" /* StoreModule */].forRoot({ players: __WEBPACK_IMPORTED_MODULE_11__player_store_player_reducer__["a" /* PlayerReducer */], games: __WEBPACK_IMPORTED_MODULE_16__games_store_game_reducer__["a" /* GameReducer */] }),
             ],
             providers: [
-                __WEBPACK_IMPORTED_MODULE_10__angular_cdk_layout__["d" /* MediaMatcher */],
-                __WEBPACK_IMPORTED_MODULE_14__shared_services_data_storage_service__["a" /* DataStorageService */],
-                __WEBPACK_IMPORTED_MODULE_16__shared_services_CustomNumberValidator__["a" /* CustomNumberValidator */],
-                __WEBPACK_IMPORTED_MODULE_20__shared_services_data_player_init_service__["a" /* DataPlayerInitService */],
-                __WEBPACK_IMPORTED_MODULE_21__shared_services_data_game_init_service__["a" /* DataGameInitService */],
-                __WEBPACK_IMPORTED_MODULE_22__auth_auth_service__["a" /* AuthService */],
-                { provide: __WEBPACK_IMPORTED_MODULE_15__angular_common_http__["a" /* HTTP_INTERCEPTORS */], useClass: __WEBPACK_IMPORTED_MODULE_23__shared_services_token_interceptor_service__["a" /* TokenInterceptorService */], multi: true },
-                __WEBPACK_IMPORTED_MODULE_25__shared_services_token_storage_service__["a" /* TokenStorageService */],
-                __WEBPACK_IMPORTED_MODULE_26__shared_guards_auth_guard_service__["a" /* AuthGuardService */]
+                __WEBPACK_IMPORTED_MODULE_8__angular_cdk_layout__["d" /* MediaMatcher */],
+                __WEBPACK_IMPORTED_MODULE_12__shared_services_data_storage_service__["a" /* DataStorageService */],
+                __WEBPACK_IMPORTED_MODULE_14__shared_services_CustomNumberValidator__["a" /* CustomNumberValidator */],
+                __WEBPACK_IMPORTED_MODULE_18__shared_services_data_player_init_service__["a" /* DataPlayerInitService */],
+                __WEBPACK_IMPORTED_MODULE_19__shared_services_data_game_init_service__["a" /* DataGameInitService */],
+                __WEBPACK_IMPORTED_MODULE_20__auth_auth_service__["a" /* AuthService */],
+                { provide: __WEBPACK_IMPORTED_MODULE_13__angular_common_http__["a" /* HTTP_INTERCEPTORS */], useClass: __WEBPACK_IMPORTED_MODULE_21__shared_services_token_interceptor_service__["a" /* TokenInterceptorService */], multi: true },
+                __WEBPACK_IMPORTED_MODULE_23__shared_services_token_storage_service__["a" /* TokenStorageService */],
+                __WEBPACK_IMPORTED_MODULE_24__shared_guards_auth_guard_service__["a" /* AuthGuardService */]
             ],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_2__app_component__["a" /* AppComponent */]]
         })
@@ -555,12 +545,14 @@ var AuthRoutingModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__auth_routing_module__ = __webpack_require__("./src/app/auth/auth-routing.module.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__("./node_modules/@angular/forms/esm5/forms.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__login_login_component__ = __webpack_require__("./src/app/auth/login/login.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_material__ = __webpack_require__("./node_modules/@angular/material/esm5/material.es5.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -575,6 +567,10 @@ var AuthModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_1__angular_common__["b" /* CommonModule */],
                 __WEBPACK_IMPORTED_MODULE_3__angular_forms__["i" /* ReactiveFormsModule */],
                 __WEBPACK_IMPORTED_MODULE_2__auth_routing_module__["a" /* AuthRoutingModule */],
+                __WEBPACK_IMPORTED_MODULE_5__angular_material__["b" /* MatCardModule */],
+                __WEBPACK_IMPORTED_MODULE_5__angular_material__["e" /* MatFormFieldModule */],
+                __WEBPACK_IMPORTED_MODULE_5__angular_material__["g" /* MatInputModule */],
+                __WEBPACK_IMPORTED_MODULE_5__angular_material__["a" /* MatButtonModule */]
             ],
             declarations: [__WEBPACK_IMPORTED_MODULE_4__login_login_component__["a" /* LoginComponent */]]
         })
@@ -622,7 +618,7 @@ var AuthService = /** @class */ (function () {
         var credentials = { '_username': _username.toString(),
             '_password': _password.toString() };
         console.log(httpOptions + ' ' + credentials);
-        return this.http.post('http://hakimlouahem.com/login_check', credentials, httpOptions);
+        return this.http.post('http://localhost/Projet_6/HandAppServer/public/index.php/api/login_check', credentials, httpOptions);
     };
     AuthService = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["C" /* Injectable */])(),
@@ -638,14 +634,14 @@ var AuthService = /** @class */ (function () {
 /***/ "./src/app/auth/login/login.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "mat-card{\r\n  display:-webkit-box;\r\n  display:-ms-flexbox;\r\n  display:flex;\r\n  width: 30%;\r\n  margin-left: 35%;\r\n  margin-top: 15%;\r\n  border-radius: 9px;\r\n  -webkit-box-orient: vertical;\r\n  -webkit-box-direction: normal;\r\n      -ms-flex-direction: column;\r\n          flex-direction: column;\r\n  -webkit-box-pack: center;\r\n      -ms-flex-pack: center;\r\n          justify-content: center;\r\n}\r\n\r\n.login{\r\n  text-align: center;\r\n  width: 100%;\r\n  font-weight: lighter;\r\n  color: #006db3;\r\n}\r\n\r\nform{\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-orient: vertical;\r\n  -webkit-box-direction: normal;\r\n      -ms-flex-direction: column;\r\n          flex-direction: column;\r\n  -webkit-box-pack: center;\r\n      -ms-flex-pack: center;\r\n          justify-content: center;\r\n  width: 100%;\r\n}\r\n\r\n.mat-form-field{\r\n  width: 100%;\r\n}\r\n\r\n@media screen and (max-width: 400px){\r\nmat-card{\r\n  width: 80%;\r\n  margin-left: 6%;\r\n}\r\n}\r\n"
 
 /***/ }),
 
 /***/ "./src/app/auth/login/login.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<form [formGroup]='loginForm' (ngSubmit)=\"submit()\">\n<input type=\"text\" formControlName=\"_username\" name=\"_username\" id=\"_username\">\n<input type=\"password\" formControlName=\"_password\" name=\"_password\" id=\"_password\">\n  <button type=\"submit\" >Connectez vous</button>\n</form>\n"
+module.exports = "<div class=\"pageheader\">\n</div>\n<mat-card>\n  <mat-card-header>\n      <h2 class=\"login\">Connectez-vous</h2>\n  </mat-card-header>\n  <mat-card-content>\n      <form [formGroup]='loginForm' (ngSubmit)=\"submit()\">\n        <mat-form-field>\n\n          <input  matInput type=\"text\" formControlName=\"_username\" name=\"_username\" id=\"_username\" placeholder=\"Nom d'utilisateur\">\n        </mat-form-field><br>\n        <mat-form-field>\n          <input matInput type=\"password\" formControlName=\"_password\" name=\"_password\" id=\"_password\" placeholder=\"Mot de Passe\">\n        </mat-form-field><br>\n        <button mat-button [disabled]=\"!loginForm.valid\" type=\"submit\" >Connectez vous</button>\n      </form>\n  </mat-card-content>\n</mat-card>\n"
 
 /***/ }),
 
@@ -700,7 +696,7 @@ var LoginComponent = /** @class */ (function () {
         var _this = this;
         this.authService.attemptAuth(this._username, this._password).subscribe(function (data) {
             _this.token.saveToken(data.token);
-            _this.router.navigate(['/']);
+            _this.router.navigate(['/games']);
         });
     };
     LoginComponent = __decorate([
@@ -712,106 +708,6 @@ var LoginComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */], __WEBPACK_IMPORTED_MODULE_2__angular_material__["d" /* MatDialog */], __WEBPACK_IMPORTED_MODULE_3__auth_service__["a" /* AuthService */], __WEBPACK_IMPORTED_MODULE_4__shared_services_token_storage_service__["a" /* TokenStorageService */]])
     ], LoginComponent);
     return LoginComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/core/auth/signin/signin.component.css":
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/core/auth/signin/signin.component.html":
-/***/ (function(module, exports) {
-
-module.exports = "<p>\n  signin works!\n</p>\n"
-
-/***/ }),
-
-/***/ "./src/app/core/auth/signin/signin.component.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SigninComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var SigninComponent = /** @class */ (function () {
-    function SigninComponent() {
-    }
-    SigninComponent.prototype.ngOnInit = function () {
-    };
-    SigninComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'app-signin',
-            template: __webpack_require__("./src/app/core/auth/signin/signin.component.html"),
-            styles: [__webpack_require__("./src/app/core/auth/signin/signin.component.css")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], SigninComponent);
-    return SigninComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/core/auth/signup/signup.component.css":
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/core/auth/signup/signup.component.html":
-/***/ (function(module, exports) {
-
-module.exports = "<p>\n  signup works!\n</p>\n"
-
-/***/ }),
-
-/***/ "./src/app/core/auth/signup/signup.component.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SignupComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var SignupComponent = /** @class */ (function () {
-    function SignupComponent() {
-    }
-    SignupComponent.prototype.ngOnInit = function () {
-    };
-    SignupComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'app-signup',
-            template: __webpack_require__("./src/app/core/auth/signup/signup.component.html"),
-            styles: [__webpack_require__("./src/app/core/auth/signup/signup.component.css")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], SignupComponent);
-    return SignupComponent;
 }());
 
 
@@ -977,14 +873,14 @@ var HomeComponent = /** @class */ (function () {
 /***/ "./src/app/core/sidebar/sidebar.component.css":
 /***/ (function(module, exports) {
 
-module.exports = "nav {\r\n  color: #263238;\r\n}\r\n\r\n.mat-list-item{\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-pack: justify;\r\n      -ms-flex-pack: justify;\r\n          justify-content: space-between;\r\n  color: #CFD8DC;\r\n}\r\n\r\n.user{\r\n  color: #CFD8DC;\r\n}\r\n\r\n.user mat-icon {\r\n  padding-left: 86px;\r\n}\r\n\r\n.user h2{\r\n  padding-left: 30%;\r\n}\r\n\r\n.mat-list-item:hover {\r\n  background-color: #2979ff;;\r\n}\r\n\r\nmat-icon.home{\r\n  position: relative;\r\n  top: 5px;\r\n}\r\n\r\nmat-nav-list {\r\n  margin-top: 60%;\r\n}\r\n\r\n.mat-list-item mat-icon{\r\n  margin-right: 40px;\r\n}\r\n\r\nmat-list-item{\r\n  margin-top: 0px;\r\n}\r\n\r\nhr {\r\n  border: 0.5px black solid;\r\n;\r\n}\r\n\r\n.navbutton{\r\n  display: block;\r\n}\r\n\r\n.navbutton a span{\r\n  padding-left: 15px;\r\n}\r\n"
+module.exports = "nav {\r\n  color: #263238;\r\n}\r\n\r\n.mat-list-item{\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-pack: justify;\r\n      -ms-flex-pack: justify;\r\n          justify-content: space-between;\r\n  color: #CFD8DC;\r\n}\r\n\r\n.user{\r\n  color: #CFD8DC;\r\n}\r\n\r\n.user mat-icon {\r\n  padding-left: 86px;\r\n}\r\n\r\n.user h2{\r\n  padding-left: 40px;\r\n  font-weight: lighter;\r\n}\r\n\r\n.mat-list-item:hover {\r\n  background-color: #2979ff;;\r\n}\r\n\r\nmat-icon.home{\r\n  position: relative;\r\n  top: 5px;\r\n}\r\n\r\nmat-nav-list {\r\n  margin-top: 60%;\r\n}\r\n\r\n.mat-list-item mat-icon{\r\n  margin-right: 40px;\r\n}\r\n\r\nmat-list-item{\r\n  margin-top: 0px;\r\n}\r\n\r\nhr {\r\n  border: 0.5px black solid;\r\n;\r\n}\r\n\r\n.navbutton{\r\n  display: block;\r\n}\r\n\r\n.navbutton a span{\r\n  padding-left: 15px;\r\n}\r\n\r\n.mat-list-avatar {\r\n  width: 100px;\r\n  height: 100px;\r\n  border-radius: 50%;\r\n  margin-left: 50px;\r\n}\r\n\r\nmat-list a{\r\n  margin-left: 50px;\r\n  color: #CFD8DC;\r\n}\r\n"
 
 /***/ }),
 
 /***/ "./src/app/core/sidebar/sidebar.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"side-nav\">\n\n  <mat-nav-list class=\"nav-button\">\n    <div class=\"user\">\n      <mat-icon>face</mat-icon>\n    <h2>User X</h2>\n    </div> <hr>\n    <mat-nav-list class=\"navbutton\">\n      <h3 matSubheader>Navigation</h3>\n      <a mat-list-item routerLink=\"/\"><span><mat-icon class=\"home\">home</mat-icon>Accueil</span></a>\n      <a mat-list-item routerLink=\"/players\"><span><mat-icon>people</mat-icon></span>Effectif</a>\n      <a mat-list-item routerLink=\"/games\"><span><mat-icon>event_avalaible</mat-icon></span>Matchs</a>\n    </mat-nav-list>\n  </mat-nav-list>\n</div>\n"
+module.exports = "<div class=\"side-nav\">\n\n  <mat-nav-list class=\"nav-button\">\n    <mat-list class=\"user\" *ngIf=\"token == true\">\n      <img mat-list-avatar src=\"./assets/img/Taclogo.png\" alt=\"User Logo\">\n      <h2>Tac Handball</h2>\n      <button mat-button (click)=\"logout()\"><i class=\"material-icons\">vpn_key</i>Déconnectez-vous</button>\n    </mat-list>\n    <mat-list class=\"user\" *ngIf=\"token == false\">\n      <a routerLink=\"/login\">Connectez-vous</a>\n    </mat-list>\n    <mat-nav-list class=\"navbutton\">\n      <!--<a mat-list-item routerLink=\"/\"><span><mat-icon class=\"home\">home</mat-icon>Accueil</span></a>//-->\n      <a mat-list-item routerLink=\"/players\"><span><mat-icon>people</mat-icon></span>Effectif</a>\n      <a mat-list-item routerLink=\"/games\"><span><mat-icon>event_avalaible</mat-icon></span>Matchs</a>\n    </mat-nav-list>\n  </mat-nav-list>\n</div>\n"
 
 /***/ }),
 
@@ -994,6 +890,8 @@ module.exports = "<div class=\"side-nav\">\n\n  <mat-nav-list class=\"nav-button
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SidebarComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_services_token_storage_service__ = __webpack_require__("./src/app/shared/services/token-storage.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1004,10 +902,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
+
 var SidebarComponent = /** @class */ (function () {
-    function SidebarComponent() {
+    function SidebarComponent(tokenStorageService, router) {
+        this.tokenStorageService = tokenStorageService;
+        this.router = router;
     }
     SidebarComponent.prototype.ngOnInit = function () {
+        this.token = true;
+    };
+    SidebarComponent.prototype.logout = function () {
+        this.tokenStorageService.signOut();
+        this.router.navigate(['/login']);
     };
     SidebarComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
@@ -1015,7 +922,7 @@ var SidebarComponent = /** @class */ (function () {
             template: __webpack_require__("./src/app/core/sidebar/sidebar.component.html"),
             styles: [__webpack_require__("./src/app/core/sidebar/sidebar.component.css")]
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__shared_services_token_storage_service__["a" /* TokenStorageService */], __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* Router */]])
     ], SidebarComponent);
     return SidebarComponent;
 }());
@@ -1027,14 +934,14 @@ var SidebarComponent = /** @class */ (function () {
 /***/ "./src/app/games/editgame/editgame.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".mat-card{\r\n  width: 100%;\r\n}\r\n.mat-card-content{\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-pack: center;\r\n      -ms-flex-pack: center;\r\n          justify-content: center;\r\n  width: 100%;\r\n}\r\nform{\r\n  width: 100%;\r\n}\r\nmat-form-field{\r\n  width: 100%;\r\n}\r\n@media screen and (max-width: 1024px){\r\n  .mat-card{\r\n    width: 95%;\r\n  }\r\n}\r\n"
 
 /***/ }),
 
 /***/ "./src/app/games/editgame/editgame.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<form [formGroup]=\"gameForm\" (ngSubmit)=\"onSubmit()\">\n  <mat-form-field>\n  <input matInput [matDatepicker]=\"picker\" formControlName=\"date\" placeholder=\"Date\" id=\"date\" name=\"date\">\n  <mat-datepicker-toggle matSuffix [for]=\"picker\"></mat-datepicker-toggle>\n  <mat-datepicker #picker></mat-datepicker>\n</mat-form-field>\n  <mat-form-field>\n    <input matInput formControlName=\"gameHome_Team\" type=\"text\" placeholder=\"Equipe Domicile\" id=\"gameHome_Team\" name=\"gameHome_Team\">\n  </mat-form-field>\n  <mat-form-field>\n    <input matInput formControlName=\"gameAway_Team\" type=\"text\" placeholder=\"Equipe Extérieure\" id=\"gameAway_Team\" name=\"gameAway_Team\">\n  </mat-form-field>\n  <mat-form-field>\n    <mat-select formControlName=\"gameRoster\" name=\"gameRoster\" placeholder=\"Effectif\" multiple #gameRoster>\n      <mat-option *ngFor=\"let player of (playersState| async).players\" type=\"checkbox\"  [value]=\"player\">{{player.name}} {{player.surname}}, N°{{player.number}}, {{player.poste}},</mat-option>\n    </mat-select>\n  </mat-form-field>\n  <button mat-button type=\"submit\" [disabled]=\"!gameForm.valid\"> Enregistrer </button>\n  <button mat-button type=\"submit\" (click)=\"onSendRoster()\" [disabled]=\"gameRoster.value != null\"> Envoyer effectif </button>\n</form>\n\n"
+module.exports = "<mat-card>\n  <mat-card-content>\n      <form [formGroup]=\"gameForm\" (ngSubmit)=\"onSubmit()\">\n        <mat-form-field>\n        <input matInput [matDatepicker]=\"picker\" formControlName=\"date\" placeholder=\"Date\" id=\"date\" name=\"date\">\n        <mat-datepicker-toggle matSuffix [for]=\"picker\"></mat-datepicker-toggle>\n        <mat-datepicker #picker></mat-datepicker>\n      </mat-form-field><br>\n        <mat-form-field>\n          <input matInput formControlName=\"gameHome_Team\" type=\"text\" placeholder=\"Equipe Domicile\" id=\"gameHome_Team\" name=\"gameHome_Team\">\n        </mat-form-field><br>\n        <mat-form-field>\n          <input matInput formControlName=\"gameAway_Team\" type=\"text\" placeholder=\"Equipe Extérieure\" id=\"gameAway_Team\" name=\"gameAway_Team\">\n        </mat-form-field><br>\n        <mat-form-field>\n          <mat-select formControlName=\"gameRoster\" name=\"gameRoster\" placeholder=\"Effectif\" multiple #gameRoster>\n            <mat-option *ngFor=\"let player of (playersState| async).players\" type=\"checkbox\"  [value]=\"player\">{{player.name}} {{player.surname}}, N°{{player.number}}, {{player.poste}},</mat-option>\n          </mat-select>\n        </mat-form-field><br>\n        <button mat-button type=\"submit\" [disabled]=\"!gameForm.valid\" > Enregistrer </button>\n        <button mat-button type=\"submit\" (click)=\"onSendRoster()\" [disabled]=\"gameRoster.value == null && !gameForm.valid\"> Envoyer effectif </button>\n      </form>\n\n  </mat-card-content>\n</mat-card>\n"
 
 /***/ }),
 
@@ -1113,52 +1020,58 @@ var EditgameComponent = /** @class */ (function () {
         });
     };
     EditgameComponent.prototype.onSubmit = function () {
+        var _this = this;
         var value = this.gameForm.value;
         var passed = __WEBPACK_IMPORTED_MODULE_7_moment__(value.date).isBefore();
         var date = __WEBPACK_IMPORTED_MODULE_7_moment__(value.date).format('DD-MM-YYYY');
         var gameToAdd = new __WEBPACK_IMPORTED_MODULE_4__game_model__["a" /* Game */](null, date, value.gameHome_Team, value.gameAway_Team, value.gameRoster, passed);
         if (this.editMode == true) {
-            gameToAdd.id = this.editedGameId;
-            this.dataStorageService.updateGame(gameToAdd).subscribe();
-            this.gameStore.dispatch(new __WEBPACK_IMPORTED_MODULE_5__store_game_actions__["i" /* UpdateGames */]({ game: gameToAdd, editedGameIndex: this.editedGameId }));
+            gameToAdd.id = this.editedGame.id;
+            this.dataStorageService.updateGame(gameToAdd).subscribe(function (game) {
+                _this.games.splice(+game.id, 1, game);
+            });
+            this.gameStore.dispatch(new __WEBPACK_IMPORTED_MODULE_5__store_game_actions__["j" /* UpdateGames */]({ game: gameToAdd, editedGameIndex: gameToAdd.id }));
         }
         else {
             this.gameState.subscribe(function (gameSate) {
-                gameSate.games.length <= 0 ? gameToAdd.id = 1 : gameToAdd.id = gameSate.games.length;
+                gameSate.games.length <= 0 || gameSate == null ? gameToAdd.id = 1 : gameToAdd.id = gameSate.games.length;
             });
             this.gameStore.dispatch(new __WEBPACK_IMPORTED_MODULE_5__store_game_actions__["b" /* AddGames */](gameToAdd));
-            this.dataStorageService.addGame(gameToAdd);
+            this.dataStorageService.addGame(gameToAdd).subscribe();
         }
         this.stopEdit();
+        var dataGame = this.initDataGames.initGameState();
+        this.gameState = dataGame['gamesState'];
     };
     EditgameComponent.prototype.onSendRoster = function () {
         var value = this.gameForm.value;
         var name;
-        for (var _i = 0, _a = value.roster; _i < _a.length; _i++) {
+        var date = __WEBPACK_IMPORTED_MODULE_7_moment__(value.date).format('DD-MM-YYYY');
+        var hometeam = value.gameHome_Team;
+        var awayteam = value.gameAway_Team;
+        for (var _i = 0, _a = value.gameRoster; _i < _a.length; _i++) {
             var player = _a[_i];
-            name = name + '' + player.name;
+            name = name != null ? name + ' ' + player.name : ' ' + player.name;
         }
-        var message = new __WEBPACK_IMPORTED_MODULE_10__shared_message_model__["a" /* Message */](name);
-        console.log(message);
-        this.dataStorageService.sendMessage(message);
+        var message = new __WEBPACK_IMPORTED_MODULE_10__shared_message_model__["a" /* Message */]('L\'effectif pour ' + hometeam + ' contre ' + awayteam + ' le ' + date + ' est :' + name);
+        this.dataStorageService.sendMessage(message).subscribe();
     };
     EditgameComponent.prototype.formUpdateInit = function () {
         var _this = this;
         this.formInit();
         this.route.params.subscribe(function (params) {
-            if (params.id != null) {
-                _this.editedGameId = params.id;
+            if (params['id'] != null) {
+                _this.editedGameId = +params['id'];
                 _this.editMode = true;
                 _this.gameState.subscribe(function (gamesState) {
-                    _this.editedGame = gamesState.games.find(function (Game) { return Game.id == params.id; });
-                    _this.editedGameId = _this.editedGame.id;
+                    _this.editedGame = gamesState.games.find(function (Game) { return Game.id == +params['id']; });
                     _this.formInit();
                 });
             }
         });
     };
     EditgameComponent.prototype.stopEdit = function () {
-        this.gameStore.dispatch(new __WEBPACK_IMPORTED_MODULE_5__store_game_actions__["g" /* StopUpdateGame */]());
+        this.gameStore.dispatch(new __WEBPACK_IMPORTED_MODULE_5__store_game_actions__["h" /* StopUpdateGame */]());
         this.router.navigate(['games']);
     };
     EditgameComponent = __decorate([
@@ -1192,6 +1105,7 @@ var EditgameComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__editgame_editgame_component__ = __webpack_require__("./src/app/games/editgame/editgame.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__gamedetails_gamedetails_component__ = __webpack_require__("./src/app/games/gamedetails/gamedetails.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__shared_guards_auth_guard_service__ = __webpack_require__("./src/app/shared/guards/auth-guard.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1203,13 +1117,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
 var routes = [
     { path: 'games', component: __WEBPACK_IMPORTED_MODULE_1__game_component__["a" /* GameComponent */], children: [
             { path: 'details/:id', component: __WEBPACK_IMPORTED_MODULE_3__gamedetails_gamedetails_component__["a" /* GamedetailsComponent */] },
             { path: 'edit', component: __WEBPACK_IMPORTED_MODULE_2__editgame_editgame_component__["a" /* EditgameComponent */] },
             { path: 'edit/:id', component: __WEBPACK_IMPORTED_MODULE_2__editgame_editgame_component__["a" /* EditgameComponent */] }
-            //], canActivate: [AuthGuardService]},
-        ] },
+        ], canActivate: [__WEBPACK_IMPORTED_MODULE_5__shared_guards_auth_guard_service__["a" /* AuthGuardService */]] },
 ];
 var GameRoutingModule = /** @class */ (function () {
     function GameRoutingModule() {
@@ -1234,14 +1148,14 @@ var GameRoutingModule = /** @class */ (function () {
 /***/ "./src/app/games/game.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".addGameButton{\r\n  max-height: 50px;\r\n  max-width: 50px;\r\n  z-index: 3;\r\n  margin-left: -20px;\r\n  margin-top: -20px;\r\n  background-color: #006db3;\r\n  color: #FAFAFA;\r\n}\r\n\r\n.games{\r\n  margin-top: 50px;\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-pack: center;\r\n      -ms-flex-pack: center;\r\n          justify-content: center;\r\n}\r\n"
+module.exports = ".addGameButton{\r\n  max-height: 50px;\r\n  max-width: 50px;\r\n  z-index: 3;\r\n  margin-right: -20px;\r\n  margin-top: -20px;\r\n  background-color: #006db3;\r\n  color: #FAFAFA;\r\n}\r\n\r\n.games{\r\n  margin-top: 50px;\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-pack: center;\r\n      -ms-flex-pack: center;\r\n          justify-content: center;\r\n}\r\n\r\n.part2{\r\n  margin-top: 20px;\r\n  width: 81%;\r\n  margin-left: 10%;\r\n  -webkit-box-pack: center;\r\n      -ms-flex-pack: center;\r\n          justify-content: center;\r\n}\r\n\r\n@media screen and (max-width: 1024px){\r\n  .games{\r\n    display: block;\r\n  }\r\n.part2{\r\n  width: 100%;\r\n  margin-left: 0;\r\n}\r\n  .addGameButton{\r\nmargin-bottom: -25px;\r\n  }\r\n}\r\n"
 
 /***/ }),
 
 /***/ "./src/app/games/game.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"games\">\r\n    <div class=\"game-wrapper\" *ngFor=\"let game of (gamesState | async).games\">\r\n      <mat-card>\r\n        <mat-card-header>\r\n          <mat-card-title><h3>{{game.date}}</h3></mat-card-title>\r\n        </mat-card-header><hr>\r\n        <mat-card-content>\r\n          <p>Domicile: {{game.home_team}}</p>\r\n          <p>Exterieur: {{game.away_team}}</p>\r\n        </mat-card-content>\r\n        <button mat-button [disabled]=\"!game.passed\" (click)=\"editGame(game.id)\"><mat-icon class=\"update\">create</mat-icon></button>\r\n        <button mat-button [disabled]=\"\" (click)=\"onGameDetails(game.id)\"><span class=\"material-icons\">info_outline</span></button>\r\n      </mat-card>\r\n    </div>\r\n  <button class=\"addGameButton\" mat-mini-fab routerLink=\"edit/\"><i class=\"material-icons\">add</i></button>\r\n</div>\r\n<router-outlet></router-outlet>\r\n"
+module.exports = "<div class=\"pageheader\">\r\n</div>\r\n<div class=\"games\">\r\n  <button class=\"addGameButton\" mat-mini-fab routerLink=\"edit/\"><i class=\"material-icons\">add</i></button>\r\n    <div class=\"game-wrapper\" *ngFor=\"let game of (gamesState | async).games\">\r\n      <mat-card>\r\n        <mat-card-header>\r\n          <mat-card-title><h3>{{game.date}}</h3></mat-card-title>\r\n        </mat-card-header><hr>\r\n        <mat-card-content>\r\n          <p>Domicile: {{game.home_team}}</p>\r\n          <p>Exterieur: {{game.away_team}}</p>\r\n        </mat-card-content>\r\n        <button mat-button (click)=\"deleteGame(game.id)\"><mat-icon class=\"update\"><mat-icon class=\"delete\">close</mat-icon></mat-icon></button>\r\n        <button mat-button [disabled]=\"\" (click)=\"onGameDetails(game.id)\"><span class=\"material-icons\">info_outline</span></button>\r\n      </mat-card>\r\n    </div>\r\n</div>\r\n<div class=\"part2\">\r\n<router-outlet></router-outlet>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -1253,8 +1167,9 @@ module.exports = "<div class=\"games\">\r\n    <div class=\"game-wrapper\" *ngFo
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_services_data_storage_service__ = __webpack_require__("./src/app/shared/services/data-storage.service.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngrx_store__ = __webpack_require__("./node_modules/@ngrx/store/@ngrx/store.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared_services_data_game_init_service__ = __webpack_require__("./src/app/shared/services/data-game-init.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__store_game_actions__ = __webpack_require__("./src/app/games/store/game.actions.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__shared_services_data_game_init_service__ = __webpack_require__("./src/app/shared/services/data-game-init.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1264,6 +1179,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -1282,8 +1198,18 @@ var GameComponent = /** @class */ (function () {
         console.log(gamesDataArray);
         this.gamesState = gamesDataArray['gamesState'];
     };
-    GameComponent.prototype.editGame = function (id) {
-        this.router.navigate(['games/edit/' + id]);
+    GameComponent.prototype.deleteGame = function (id) {
+        var _this = this;
+        console.log(id);
+        this.gamesState.subscribe(function (value) {
+            var gamesArray = value.games;
+            var gameToDelete;
+            _this.dataStorage.getGame(id).subscribe(function (game) {
+                gameToDelete = game;
+                _this.dataStorage.deleteGame(gameToDelete);
+                _this.store.dispatch(new __WEBPACK_IMPORTED_MODULE_3__store_game_actions__["d" /* DeleteGames */]({ game: gameToDelete }));
+            });
+        });
     };
     GameComponent.prototype.onGameDetails = function (gameId) {
         this.router.navigate(['details/' + gameId], { relativeTo: this.route });
@@ -1294,7 +1220,7 @@ var GameComponent = /** @class */ (function () {
             template: __webpack_require__("./src/app/games/game.component.html"),
             styles: [__webpack_require__("./src/app/games/game.component.css")]
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__shared_services_data_storage_service__["a" /* DataStorageService */], __WEBPACK_IMPORTED_MODULE_2__ngrx_store__["a" /* Store */], __WEBPACK_IMPORTED_MODULE_3__angular_router__["b" /* Router */], __WEBPACK_IMPORTED_MODULE_3__angular_router__["a" /* ActivatedRoute */], __WEBPACK_IMPORTED_MODULE_4__shared_services_data_game_init_service__["a" /* DataGameInitService */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__shared_services_data_storage_service__["a" /* DataStorageService */], __WEBPACK_IMPORTED_MODULE_2__ngrx_store__["a" /* Store */], __WEBPACK_IMPORTED_MODULE_4__angular_router__["b" /* Router */], __WEBPACK_IMPORTED_MODULE_4__angular_router__["a" /* ActivatedRoute */], __WEBPACK_IMPORTED_MODULE_5__shared_services_data_game_init_service__["a" /* DataGameInitService */]])
     ], GameComponent);
     return GameComponent;
 }());
@@ -1371,6 +1297,7 @@ var GamesModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_7__angular_material__["j" /* MatNativeDateModule */],
                 __WEBPACK_IMPORTED_MODULE_7__angular_material__["b" /* MatCardModule */],
                 __WEBPACK_IMPORTED_MODULE_7__angular_material__["f" /* MatIconModule */],
+                __WEBPACK_IMPORTED_MODULE_7__angular_material__["h" /* MatListModule */],
             ],
             exports: [
                 __WEBPACK_IMPORTED_MODULE_2__game_routing_module__["a" /* GameRoutingModule */],
@@ -1385,6 +1312,7 @@ var GamesModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_7__angular_material__["j" /* MatNativeDateModule */],
                 __WEBPACK_IMPORTED_MODULE_7__angular_material__["b" /* MatCardModule */],
                 __WEBPACK_IMPORTED_MODULE_7__angular_material__["f" /* MatIconModule */],
+                __WEBPACK_IMPORTED_MODULE_7__angular_material__["h" /* MatListModule */],
             ],
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_3__game_component__["a" /* GameComponent */],
@@ -1404,14 +1332,14 @@ var GamesModule = /** @class */ (function () {
 /***/ "./src/app/games/gamedetails/gamedetails.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".teams{\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-pack: justify;\r\n      -ms-flex-pack: justify;\r\n          justify-content: space-between;\r\n  padding: 25px;\r\n  font-size: large;\r\n}\r\n.mat-card-header{\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-pack: center;\r\n      -ms-flex-pack: center;\r\n          justify-content: center;\r\n}\r\n"
 
 /***/ }),
 
 /***/ "./src/app/games/gamedetails/gamedetails.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "{{game.date}}\n"
+module.exports = "<mat-card>\n  <mat-card-header>\n    <h2>{{game.date}}</h2>\n    <button mat-icon-button (click)=\"editGame(game.id)\"><mat-icon class=\"update\">create</mat-icon></button>\n  </mat-card-header>\n  <mat-card-content>\n    <div class=\"teams\">\n    <p> Equipe Domicile : {{game.home_team}}</p>\n    <p> Equipe Visiteuse : {{game.away_team}}</p>\n    </div>\n    <mat-list class=\"joueurs\">\n      <mat-list-item *ngFor=\"let player of game.roster\">\n        {{player.name}}, {{player.surname}}, n°{{player.number}}, poste: {{player.poste}}\n      </mat-list-item>\n    </mat-list>\n  </mat-card-content>\n</mat-card>\n"
 
 /***/ }),
 
@@ -1440,20 +1368,26 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 var GamedetailsComponent = /** @class */ (function () {
-    function GamedetailsComponent(dataStorage, store, route, initDataGames) {
+    function GamedetailsComponent(dataStorage, store, route, initDataGames, router) {
         this.dataStorage = dataStorage;
         this.store = store;
         this.route = route;
         this.initDataGames = initDataGames;
+        this.router = router;
     }
     GamedetailsComponent.prototype.ngOnInit = function () {
         var _this = this;
         var dataGameArray = this.initDataGames.initGameState();
         this.gamesState = dataGameArray['gamesState'];
-        var gameID = this.route.snapshot.params['id'];
-        this.gamesState.subscribe(function (gamesState) {
-            _this.game = gamesState.games.find(function (Game) { return Game.id == gameID; });
+        this.route.params.subscribe(function (params) {
+            var Id = +params['id'];
+            _this.gamesState.subscribe(function (gamesState) {
+                _this.game = gamesState.games.find(function (Game) { return Game.id == Id; });
+            });
         });
+    };
+    GamedetailsComponent.prototype.editGame = function (id) {
+        this.router.navigate(['games/edit/' + id]);
     };
     GamedetailsComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
@@ -1461,7 +1395,7 @@ var GamedetailsComponent = /** @class */ (function () {
             template: __webpack_require__("./src/app/games/gamedetails/gamedetails.component.html"),
             styles: [__webpack_require__("./src/app/games/gamedetails/gamedetails.component.css")]
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__shared_services_data_storage_service__["a" /* DataStorageService */], __WEBPACK_IMPORTED_MODULE_2__ngrx_store__["a" /* Store */], __WEBPACK_IMPORTED_MODULE_3__angular_router__["a" /* ActivatedRoute */], __WEBPACK_IMPORTED_MODULE_4__shared_services_data_game_init_service__["a" /* DataGameInitService */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__shared_services_data_storage_service__["a" /* DataStorageService */], __WEBPACK_IMPORTED_MODULE_2__ngrx_store__["a" /* Store */], __WEBPACK_IMPORTED_MODULE_3__angular_router__["a" /* ActivatedRoute */], __WEBPACK_IMPORTED_MODULE_4__shared_services_data_game_init_service__["a" /* DataGameInitService */], __WEBPACK_IMPORTED_MODULE_3__angular_router__["b" /* Router */]])
     ], GamedetailsComponent);
     return GamedetailsComponent;
 }());
@@ -1474,16 +1408,16 @@ var GamedetailsComponent = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return INITIALIZE_GAMES; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return INITIALIZE_GAMES; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ADD_GAMES; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return DELETE_GAMES; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return UPDATE_GAMES; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return STOP_UPDATE_GAMES; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return InitializeGames; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return UPDATE_GAMES; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return STOP_UPDATE_GAMES; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return InitializeGames; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return AddGames; });
-/* unused harmony export DeleteGames */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return UpdateGames; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return StopUpdateGame; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return DeleteGames; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return UpdateGames; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return StopUpdateGame; });
 var INITIALIZE_GAMES = 'INITIALIZE_GAMES';
 var ADD_GAMES = ' ADD_GAMES';
 var DELETE_GAMES = 'DELETE_GAMES';
@@ -1561,21 +1495,23 @@ var initialState = {
 function GameReducer(state, actions) {
     if (state === void 0) { state = initialState; }
     switch (actions.type) {
-        case __WEBPACK_IMPORTED_MODULE_0__game_actions__["d" /* INITIALIZE_GAMES */]:
+        case __WEBPACK_IMPORTED_MODULE_0__game_actions__["e" /* INITIALIZE_GAMES */]:
             state.games = actions.payload;
             return __assign({}, state);
         case __WEBPACK_IMPORTED_MODULE_0__game_actions__["a" /* ADD_GAMES */]:
             return __assign({}, state, { games: state.games.concat([actions.payload]) });
-        case __WEBPACK_IMPORTED_MODULE_0__game_actions__["h" /* UPDATE_GAMES */]:
-            var editedGame = state.games[actions.payload.editedGameIndex - 1];
+        case __WEBPACK_IMPORTED_MODULE_0__game_actions__["i" /* UPDATE_GAMES */]:
+            var editedGame = state.games[actions.payload.editedGameIndex];
             var updatedGame = __assign({}, editedGame, actions.payload.game);
             var games = state.games.slice();
             games[actions.payload.editedGameIndex - 1] = updatedGame;
             return __assign({}, state, { games: games, gamesToUpdateId: -1, editedGame: null });
-        case __WEBPACK_IMPORTED_MODULE_0__game_actions__["f" /* STOP_UPDATE_GAMES */]:
+        case __WEBPACK_IMPORTED_MODULE_0__game_actions__["g" /* STOP_UPDATE_GAMES */]:
             return __assign({}, state, { gamesToUpdateId: -1, editedGame: null });
         case __WEBPACK_IMPORTED_MODULE_0__game_actions__["c" /* DELETE_GAMES */]:
             var oldGameArray = state.games.slice();
+            console.log(actions.payload);
+            console.log(actions.payload.game);
             oldGameArray.splice(actions.payload.game.id - 1, 1);
             return __assign({}, state, { games: oldGameArray, gamesToUpdateId: -1, editedGame: null });
         default:
@@ -1589,14 +1525,14 @@ function GameReducer(state, actions) {
 /***/ "./src/app/player/editplayer/editplayer.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".form-container{\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-orient: vertical;\r\n  -webkit-box-direction: normal;\r\n      -ms-flex-direction: column;\r\n          flex-direction: column;\r\n  width: 100%;\r\n  height: 100%;\r\n  min-width: 320px;\r\n  min-height: 400px;\r\n}\r\n"
+module.exports = ".mat-card{\r\n  height: 92%;\r\n  color: #006db3 !important;\r\n}\r\nmat-card-content form{\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-orient: vertical;\r\n  -webkit-box-direction: normal;\r\n      -ms-flex-direction: column;\r\n          flex-direction: column;\r\n  -webkit-box-pack: center;\r\n      -ms-flex-pack: center;\r\n          justify-content: center;\r\n}\r\n\r\n"
 
 /***/ }),
 
 /***/ "./src/app/player/editplayer/editplayer.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"form-container\">\r\n  <mat-card>\r\n  <mat-card-header></mat-card-header>\r\n  <mat-card-content>\r\n  <form [formGroup]=\"playerForm\"  (ngSubmit)=\"onSubmit()\">\r\n      <mat-form-field>\r\n        <input matInput placeholder=\"Nom\" id=\"name\" formControlName=\"name\">\r\n        <mat-error *ngIf=\"playerForm.get('name').hasError('required') && playerForm.get('name').touched\">Le nom doit faire au minimum 3 charactères</mat-error>\r\n      </mat-form-field><br><br *ngIf=\"playerForm.get('name').hasError('required') && playerForm.get('name').touched\">\r\n      <mat-form-field>\r\n        <input matInput placeholder=\"Prénom\" id=\"surname\" formControlName=\"surname\">\r\n        <mat-error *ngIf=\"playerForm.get('surname').hasError('required') && playerForm.get('surname').touched\">Le prénom doit faire au minimum 3 charactères</mat-error>\r\n      </mat-form-field><br><br *ngIf=\"playerForm.get('surname').hasError('required') && playerForm.get('surname').touched\">\r\n      <mat-form-field>\r\n        <input matInput placeholder=\"Numéro\" id=\"number\" formControlName=\"number\" type=\"number\">\r\n        <mat-error *ngIf=\"playerForm.get('number').hasError('required') && playerForm.get('number').touched\">Entrez un numéro entre 1 et 99</mat-error>\r\n      </mat-form-field><br><br *ngIf=\"playerForm.get('number').hasError('required') && playerForm.get('number').touched\">\r\n      <mat-form-field>\r\n        <input matInput placeholder=\"Poste\" id=\"poste\" formControlName=\"poste\">\r\n      </mat-form-field><br>\r\n      <mat-form-field>\r\n        <input matInput placeholder=\"Nombre de match joués\" id=\"matchcount\" formControlName=\"matchcount\">\r\n        <mat-error *ngIf=\"playerForm.get('matchcount').hasError('required') && playerForm.get('matchcount').touched\">Entrez un nombre de match entre 0 et 100</mat-error>\r\n      </mat-form-field><br><br *ngIf=\"playerForm.get('matchcount').hasError('required') && playerForm.get('matchcount').touched\">\r\n      <mat-form-field>\r\n        <input matInput placeholder=\"Photo\" id=\"photo\" formControlName=\"photo\" >\r\n      </mat-form-field><br>\r\n    <button mat-button type=\"submit\" [disabled]=\"!playerForm.valid\"> Enregistrer </button>\r\n    </form>\r\n  </mat-card-content>\r\n  <mat-card-actions>\r\n\r\n  </mat-card-actions></mat-card>\r\n</div>\r\n"
+module.exports = "\r\n  <mat-card>\r\n  <mat-card-header></mat-card-header>\r\n  <mat-card-content>\r\n  <form [formGroup]=\"playerForm\"  (ngSubmit)=\"onSubmit()\">\r\n      <mat-form-field>\r\n        <input matInput placeholder=\"Nom\" id=\"name\" formControlName=\"name\">\r\n        <mat-error *ngIf=\"playerForm.get('name').hasError('required') && playerForm.get('name').touched\">Le nom doit faire au minimum 3 charactères</mat-error>\r\n      </mat-form-field><br><br *ngIf=\"playerForm.get('name').hasError('required') && playerForm.get('name').touched\">\r\n      <mat-form-field>\r\n        <input matInput placeholder=\"Prénom\" id=\"surname\" formControlName=\"surname\">\r\n        <mat-error *ngIf=\"playerForm.get('surname').hasError('required') && playerForm.get('surname').touched\">Le prénom doit faire au minimum 3 charactères</mat-error>\r\n      </mat-form-field><br><br *ngIf=\"playerForm.get('surname').hasError('required') && playerForm.get('surname').touched\">\r\n      <mat-form-field>\r\n        <input matInput placeholder=\"Numéro\" id=\"number\" formControlName=\"number\" type=\"number\">\r\n        <mat-error *ngIf=\"playerForm.get('number').hasError('required') && playerForm.get('number').touched\">Entrez un numéro entre 1 et 99</mat-error>\r\n      </mat-form-field><br><br *ngIf=\"playerForm.get('number').hasError('required') && playerForm.get('number').touched\">\r\n      <mat-form-field>\r\n        <input matInput placeholder=\"Poste\" id=\"poste\" formControlName=\"poste\">\r\n      </mat-form-field><br>\r\n      <mat-form-field>\r\n        <input matInput placeholder=\"Nombre de match joués\" id=\"matchcount\" formControlName=\"matchcount\">\r\n        <mat-error *ngIf=\"playerForm.get('matchcount').hasError('required') && playerForm.get('matchcount').touched\">Entrez un nombre de match entre 0 et 100</mat-error>\r\n      </mat-form-field><br><br *ngIf=\"playerForm.get('matchcount').hasError('required') && playerForm.get('matchcount').touched\">\r\n    <!--\r\n    <mat-form-field>\r\n        <input matInput placeholder=\"Photo\" id=\"photo\" formControlName=\"photo\" >\r\n      </mat-form-field><br>\r\n      //-->\r\n    <button mat-button type=\"submit\" [disabled]=\"!playerForm.valid\"> Enregistrer </button>\r\n    </form>\r\n  </mat-card-content>\r\n</mat-card>\r\n"
 
 /***/ }),
 
@@ -1670,14 +1606,14 @@ var EditplayerComponent = /** @class */ (function () {
         var playerNumber = '';
         var playerPoste = '';
         var playerMatchCount = '';
-        var playerPhoto = '';
+        //let playerPhoto = '';
         if (this.editMode == true) {
             playerName = this.selectedPlayer.name;
             playerSurname = this.selectedPlayer.surname;
             playerNumber = this.selectedPlayer.number.toString();
             playerPoste = this.selectedPlayer.poste;
             playerMatchCount = this.selectedPlayer.matchcount;
-            playerPhoto = this.selectedPlayer.photo;
+            //playerPhoto = this.selectedPlayer.photo;
         }
         this.playerForm = new __WEBPACK_IMPORTED_MODULE_1__angular_forms__["c" /* FormGroup */]({
             'name': new __WEBPACK_IMPORTED_MODULE_1__angular_forms__["b" /* FormControl */](playerName, [__WEBPACK_IMPORTED_MODULE_1__angular_forms__["j" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["j" /* Validators */].minLength(4)]),
@@ -1685,13 +1621,12 @@ var EditplayerComponent = /** @class */ (function () {
             'number': new __WEBPACK_IMPORTED_MODULE_1__angular_forms__["b" /* FormControl */](playerNumber, [__WEBPACK_IMPORTED_MODULE_1__angular_forms__["j" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["j" /* Validators */].pattern('^[0-9]+$')]),
             'poste': new __WEBPACK_IMPORTED_MODULE_1__angular_forms__["b" /* FormControl */](playerPoste, [__WEBPACK_IMPORTED_MODULE_1__angular_forms__["j" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["j" /* Validators */].minLength(4)]),
             'matchcount': new __WEBPACK_IMPORTED_MODULE_1__angular_forms__["b" /* FormControl */](playerMatchCount, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["j" /* Validators */].required),
-            'photo': new __WEBPACK_IMPORTED_MODULE_1__angular_forms__["b" /* FormControl */](playerPhoto, [__WEBPACK_IMPORTED_MODULE_1__angular_forms__["j" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["j" /* Validators */].minLength(4)])
         });
     };
     EditplayerComponent.prototype.onSubmit = function () {
         var _this = this;
         var value = this.playerForm.value;
-        var playerToAdd = new __WEBPACK_IMPORTED_MODULE_6__player_model__["a" /* Player */](null, value.name, value.surname, value.number, value.photo, value.poste, value.matchcount);
+        var playerToAdd = new __WEBPACK_IMPORTED_MODULE_6__player_model__["a" /* Player */](null, value.name, value.surname, value.number, './assets/img/avatar.png', value.poste, value.matchcount);
         if (this.editMode == true) {
             playerToAdd.id = this.selectedPlayer.id;
             this.dataStorage.udpadatePlayer(playerToAdd).subscribe(function (player) {
@@ -1737,6 +1672,7 @@ var EditplayerComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__playerdetails_playerdetails_component__ = __webpack_require__("./src/app/player/playerdetails/playerdetails.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__player_component__ = __webpack_require__("./src/app/player/player.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__shared_guards_auth_guard_service__ = __webpack_require__("./src/app/shared/guards/auth-guard.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1748,13 +1684,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
 var routes = [
     { path: 'players', component: __WEBPACK_IMPORTED_MODULE_4__player_component__["a" /* PlayerComponent */], children: [
             { path: 'edit/:id', component: __WEBPACK_IMPORTED_MODULE_1__editplayer_editplayer_component__["a" /* EditplayerComponent */] },
             { path: 'edit', component: __WEBPACK_IMPORTED_MODULE_1__editplayer_editplayer_component__["a" /* EditplayerComponent */] },
             { path: 'details/:id', component: __WEBPACK_IMPORTED_MODULE_2__playerdetails_playerdetails_component__["a" /* PlayerdetailsComponent */] }
-            //], canActivate: [AuthGuardService]},
-        ] },
+        ], canActivate: [__WEBPACK_IMPORTED_MODULE_5__shared_guards_auth_guard_service__["a" /* AuthGuardService */]] },
 ];
 var PlayerRoutingModule = /** @class */ (function () {
     function PlayerRoutingModule() {
@@ -1775,14 +1711,14 @@ var PlayerRoutingModule = /** @class */ (function () {
 /***/ "./src/app/player/player.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".view{\r\n  color: #263238;\r\n}\r\n.delete{\r\n  color: darkred;\r\n}\r\n.update{\r\n  color: #263238;\r\n}\r\n.button-row{\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  height: 100%;\r\n  width: 35%;\r\n  -webkit-box-orient: horizontal;\r\n  -webkit-box-direction: reverse;\r\n      -ms-flex-direction: row-reverse;\r\n          flex-direction: row-reverse;\r\n}\r\n.button-row .mat-button{\r\n  padding: 0;\r\n  width: 40px;\r\n}\r\n.first-part{\r\n  width: 50%;\r\n  height: 800px;\r\n  max-height: 850px;\r\n}\r\n.second-part{\r\n  width: 50%;\r\n}\r\n.class-row{\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  background-color: white;\r\n  min-height: 800px;\r\n}\r\n.mat-card{\r\n  height: 800px;\r\n}\r\n.list-header{\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-pack: justify;\r\n      -ms-flex-pack: justify;\r\n          justify-content: space-between;\r\n}\r\n.CTA{\r\n  height: 100%;\r\n  width: 100%;\r\n  padding: auto;\r\n  color: rgba(0,0,0,.54);\r\n}\r\n.CTA h2{\r\n  font-weight: lighter;\r\n  font-size: 2em;\r\n}\r\n.CTA span i{\r\n  font-size: 9em;\r\n}\r\nh2{\r\n  font-weight: lighter;\r\n}\r\n.addPlayerButton{\r\n  margin-top: -60px;\r\n  z-index: 4;\r\n  background-color: #006db3;\r\n  color: #FAFAFA;\r\n}\r\n.subheader-wrapper{\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-pack: justify;\r\n      -ms-flex-pack: justify;\r\n          justify-content: space-between;\r\n}\r\n@media screen and (min-width: 200px) and (max-width: 640px) {\r\n  .class-row{\r\n    display: block !important;\r\n\r\n  }\r\n\r\n  .first-part{\r\n    min-height: auto;\r\n    width: 100%;\r\n    height: auto !important;\r\n    max-height: 500px;\r\n  }\r\n\r\n  .second-part{\r\n    width: 100%;\r\n  }\r\n}\r\n"
+module.exports = "mat-card{\r\n  color: #006db3 !important;\r\n}\r\n.player-card{\r\n  width: 80%;\r\n  margin: auto;\r\n  max-width: 1440px;\r\n  margin-top: -50px;\r\n}\r\n.mat-card-content{\r\n  -webkit-box-orient: horizontal;\r\n  -webkit-box-direction: normal;\r\n      -ms-flex-direction: row;\r\n          flex-direction: row;\r\n  -webkit-box-sizing: border-box;\r\n          box-sizing: border-box;\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n}\r\n.mat-card-content mat-list{\r\n  width: 100%;\r\n}\r\n.card-part{\r\n  width: 50%;\r\n}\r\n.mat-card-header {\r\n  width: 100%;\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-pack: justify;\r\n      -ms-flex-pack: justify;\r\n          justify-content: space-between;\r\n  font-weight: lighter;\r\n}\r\n.mat-card-title{\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  width: 100%;\r\n  -webkit-box-pack: justify;\r\n      -ms-flex-pack: justify;\r\n          justify-content: space-between;\r\n}\r\n.mat-card-header h2{\r\n  font-weight: lighter;\r\n}\r\n.mat-card-header-text{\r\n  width: 100% !important;\r\n}\r\n.mat-mini-fab{\r\n  background-color: #006db3;\r\n  color: white;\r\n}\r\n.cta{\r\n  padding-top: 150px;\r\n  text-align: center;\r\n}\r\n.cta .material-icons {\r\nfont-size: 150px;\r\n}\r\n.cta h2{\r\n  font-weight: lighter;\r\n}\r\n@media screen and (max-width: 700px){\r\n  .mat-card-content{\r\n    display: block;\r\n  }\r\n\r\n  .card-part{\r\n    width: 100%;\r\n  }\r\n}\r\n"
 
 /***/ }),
 
 /***/ "./src/app/player/player.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"pageheader\">\r\n</div>\r\n\r\n<div class=\"class-row\" [class.mat-elevation-z8]=\"true\">\r\n  <div class=\"first-part\">\r\n        <mat-list>\r\n          <mat-list-item mat-subheader class=\"first-item\">\r\n            <div class=\"subheader-wrapper\">\r\n              <h2 matLine>Joueurs</h2>\r\n              <button mat-mini-fab class=\"addPlayerButton\" (click)=\"onAddPlayer()\"><i class=\"material-icons\">add</i></button>\r\n            </div>\r\n          </mat-list-item>\r\n          <mat-list-item *ngFor=\"let player of (playersState | async).players\">\r\n            <img matListAvatar src=\"../../assets/img/avatar.png\" [alt]=\"'photo de' + player.name\">\r\n            <p matLine> {{player.name}} {{player.surname}}, N°{{player.number}}, {{player.poste}}</p>\r\n            <div class=\"button-row\">\r\n                <button mat-icon-button (click)=\"onListPlayerClicked(player.id)\" style=\"cursor: pointer\"><span class=\"material-icons\">info_outline</span></button>\r\n            </div>\r\n          </mat-list-item>\r\n          </mat-list>\r\n    </div>\r\n    <div class=\"second-part\">\r\n      <div class=\"CTA\" *ngIf=\"!openPart2\">\r\n        <span><i class=\"material-icons\">person</i></span>\r\n      </div>\r\n      <router-outlet *ngIf=\"openPart2\"></router-outlet>\r\n    </div>\r\n</div>\r\n\r\n\r\n"
+module.exports = "<div class=\"pageheader\">\r\n</div>\r\n<mat-card class=\"player-card\">\r\n  <mat-card-header>\r\n      <h2>Joueurs</h2>\r\n      <button mat-mini-fab class=\"addPlayerButton\" (click)=\"onAddPlayer()\"><i class=\"material-icons\">add</i></button>\r\n  </mat-card-header>\r\n  <mat-card-content>\r\n    <div class=\"card-part\">\r\n      <mat-list>\r\n        <mat-list-item *ngFor=\"let player of (playersState | async).players\">\r\n          <img matListAvatar src=\"{{player.photo}}\" [alt]=\"'photo de' + player.name\">\r\n          <p matLine> {{player.name}} {{player.surname}}, N°{{player.number}}, {{player.poste}}</p>\r\n          <div class=\"button-row\">\r\n            <button mat-icon-button (click)=\"onListPlayerClicked(player.id)\" style=\"cursor: pointer\"><span class=\"material-icons\">info_outline</span></button>\r\n          </div>\r\n        </mat-list-item>\r\n      </mat-list>\r\n    </div>\r\n    <div class=\"card-part\">\r\n      <div class=\"cta\" *ngIf=\"openPart2\">\r\n        <i class=\"material-icons\">person</i>\r\n        <h2>Selectionnez un joueur</h2>\r\n      </div>\r\n      <router-outlet *ngIf=\"!openPart2\"></router-outlet>\r\n    </div>\r\n  </mat-card-content>\r\n</mat-card>\r\n"
 
 /***/ }),
 
@@ -1807,22 +1743,24 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 var PlayerComponent = /** @class */ (function () {
-    function PlayerComponent(router, initPlayer) {
+    function PlayerComponent(router, initPlayer, route) {
         this.router = router;
         this.initPlayer = initPlayer;
+        this.route = route;
         this.openPart2 = false;
     }
     PlayerComponent.prototype.ngOnInit = function () {
         var playersDataArray = this.initPlayer.InitPlayerState();
         this.playersState = playersDataArray['playersState'];
         console.log(playersDataArray);
+        this.route.snapshot.url.join('') === 'players' ? this.openPart2 = true : this.openPart2 = false;
     };
     PlayerComponent.prototype.onListPlayerClicked = function (id) {
+        this.openPart2 = false;
         this.router.navigate(['players/details', id]);
-        this.openPart2 = !this.openPart2;
     };
     PlayerComponent.prototype.onAddPlayer = function () {
-        this.openPart2 = !this.openPart2;
+        this.openPart2 = false;
         this.router.navigate(['players/edit']);
     };
     PlayerComponent = __decorate([
@@ -1831,7 +1769,7 @@ var PlayerComponent = /** @class */ (function () {
             template: __webpack_require__("./src/app/player/player.component.html"),
             styles: [__webpack_require__("./src/app/player/player.component.css")]
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */], __WEBPACK_IMPORTED_MODULE_2__shared_services_data_player_init_service__["a" /* DataPlayerInitService */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */], __WEBPACK_IMPORTED_MODULE_2__shared_services_data_player_init_service__["a" /* DataPlayerInitService */], __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */]])
     ], PlayerComponent);
     return PlayerComponent;
 }());
@@ -1995,14 +1933,14 @@ var PlayerService = /** @class */ (function () {
 /***/ "./src/app/player/playerdetails/playerdetails.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".mat-card{\r\n  color: #006db3;\r\n  padding-top: 0 !important;\r\n  max-height: 850px;\r\n}\r\n.mat-card-actions{\r\n  -webkit-box-pack: justify;\r\n      -ms-flex-pack: justify;\r\n          justify-content: space-between;\r\n}\r\n"
+module.exports = "mat-card{\r\n  color: #006db3 !important;\r\n}\r\n"
 
 /***/ }),
 
 /***/ "./src/app/player/playerdetails/playerdetails.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<mat-card class=\"example-card\">\r\n  <mat-card-header>\r\n    <div mat-card-avatar class=\"header-image\"></div>\r\n    <mat-card-title><h3>{{selectedPlayer.name}}</h3> {{selectedPlayer.surname}}</mat-card-title>\r\n    <mat-card-subtitle>Numéro {{selectedPlayer.number}}</mat-card-subtitle>\r\n  </mat-card-header>\r\n  <img mat-card-image src=\"../../../assets/img/avatar.png\" alt=\"Photo of Handball player {{selectedPlayer.name}}\">\r\n  <mat-card-content>\r\n    <p>\r\n      Poste: {{selectedPlayer.poste}} Match joués:{{selectedPlayer.matchcount}}\r\n    </p>\r\n  </mat-card-content>\r\n  <mat-card-actions>\r\n    <button mat-button (click)=\"onDelete()\"><mat-icon class=\"delete\">close</mat-icon></button>\r\n    <button mat-button (click)=\"onEdit(+selectedPlayer.id)\"><mat-icon class=\"update\">create</mat-icon></button>\r\n  </mat-card-actions>\r\n</mat-card>\r\n"
+module.exports = "<mat-card class=\"example-card\">\r\n  <mat-card-header>\r\n    <div mat-card-avatar class=\"header-image\"></div>\r\n    <mat-card-title><h3>{{selectedPlayer.name}}</h3> {{selectedPlayer.surname}}</mat-card-title>\r\n    <mat-card-subtitle>Numéro {{selectedPlayer.number}}</mat-card-subtitle>\r\n  </mat-card-header>\r\n  <img mat-card-image src=\"{{selectedPlayer.photo}}\" alt=\"Photo of Handball player {{selectedPlayer.name}}\">\r\n  <mat-card-content>\r\n    <p>\r\n      Poste: {{selectedPlayer.poste}} Match joués:{{selectedPlayer.matchcount}}\r\n    </p>\r\n  </mat-card-content>\r\n  <mat-card-actions>\r\n    <button mat-button (click)=\"onDelete()\"><mat-icon class=\"delete\">close</mat-icon></button>\r\n    <button mat-button (click)=\"onEdit(+selectedPlayer.id)\"><mat-icon class=\"update\">create</mat-icon></button>\r\n  </mat-card-actions>\r\n</mat-card>\r\n"
 
 /***/ }),
 
@@ -2054,7 +1992,7 @@ var PlayerdetailsComponent = /** @class */ (function () {
         }
     };
     PlayerdetailsComponent.prototype.onDelete = function () {
-        this.dataStorage.deletePlayer(this.selectedPlayer);
+        this.dataStorage.deletePlayer(this.selectedPlayer).subscribe();
         this.store.dispatch(new __WEBPACK_IMPORTED_MODULE_3__store_player_actions__["d" /* DeletePlayer */]({ player: this.selectedPlayer }));
         this.router.navigate(['players/']);
     };
@@ -2321,7 +2259,7 @@ var DataGameInitService = /** @class */ (function () {
         if (this.games.length <= 0) {
             this.dataStorageService.getGames().subscribe(function (games) {
                 var gamesFromApi = games;
-                _this.store.dispatch(new __WEBPACK_IMPORTED_MODULE_1__games_store_game_actions__["e" /* InitializeGames */](gamesFromApi));
+                _this.store.dispatch(new __WEBPACK_IMPORTED_MODULE_1__games_store_game_actions__["f" /* InitializeGames */](gamesFromApi));
                 _this.games = gamesFromApi;
             });
             this.gameState = this.store.select('games');
@@ -2423,7 +2361,7 @@ var DataStorageService = /** @class */ (function () {
     }
     DataStorageService.prototype.getPlayers = function () {
         var _this = this;
-        this.httpClient.get('http://www.hakimlouahem.com/api/players', { observe: 'body',
+        this.httpClient.get('http://localhost/Projet_6/HandAppServer/public/index.php/api/players', { observe: 'body',
             responseType: 'json' }).subscribe(function (players) {
             for (var _i = 0, players_1 = players; _i < players_1.length; _i++) {
                 var player = players_1[_i];
@@ -2433,34 +2371,34 @@ var DataStorageService = /** @class */ (function () {
         return this.players;
     };
     DataStorageService.prototype.getPlayer = function (id) {
-        return this.httpClient.get('http://www.hakimlouahem.com/api/players/' + id, { observe: 'body', responseType: 'json' });
+        return this.httpClient.get('http://localhost/Projet_6/HandAppServer/public/index.php/api/players/' + id, { observe: 'body', responseType: 'json' });
     };
     DataStorageService.prototype.addPlayer = function (player) {
-        return this.httpClient.post('http://www.hakimlouahem.com/api/players/create', player);
+        return this.httpClient.post('http://localhost/Projet_6/HandAppServer/public/index.php/api/players/create', player);
     };
     DataStorageService.prototype.udpadatePlayer = function (player) {
-        return this.httpClient.put('http://www.hakimlouahem.com/api/players/edit/' + player.id, player);
+        return this.httpClient.put('http://localhost/Projet_6/HandAppServer/public/index.php/api/players/edit/' + player.id, player);
     };
     DataStorageService.prototype.deletePlayer = function (player) {
-        return this.httpClient.delete('http://www.hakimlouahem.com/api/players/delete/' + player.id);
+        return this.httpClient.delete('http://localhost/Projet_6/HandAppServer/public/index.php/api/players/delete/' + player.id);
     };
     DataStorageService.prototype.getGames = function () {
-        return this.httpClient.get('http://www.hakimlouahem.com/api/games');
+        return this.httpClient.get('http://localhost/Projet_6/HandAppServer/public/index.php/api/games');
     };
     DataStorageService.prototype.getGame = function (id) {
-        return this.httpClient.get('http://www.hakimlouahem.com/api/games' + id);
+        return this.httpClient.get('http://localhost/Projet_6/HandAppServer/public/index.php/api/games/' + id);
     };
     DataStorageService.prototype.deleteGame = function (game) {
-        return this.httpClient.delete('http://www.hakimlouahem.com/api/games/delete/' + game.id);
+        return this.httpClient.delete('http://localhost/Projet_6/HandAppServer/public/index.php/api/games/delete/' + game.id);
     };
     DataStorageService.prototype.updateGame = function (game) {
-        return this.httpClient.put('http://www.hakimlouahem.com/api/games/update' + game.id, game);
+        return this.httpClient.put('http://localhost/Projet_6/HandAppServer/public/index.php/api/games/edit/' + game.id, game);
     };
     DataStorageService.prototype.addGame = function (game) {
-        return this.httpClient.post('http://www.hakimlouahem.com/api/games/add', game);
+        return this.httpClient.post('http://localhost/Projet_6/HandAppServer/public/index.php/api/games/add', game);
     };
     DataStorageService.prototype.sendMessage = function (message) {
-        return this.httpClient.post('http://www.hakimlouahem.com/twitter/post', message);
+        return this.httpClient.post('http://localhost/Projet_6/HandAppServer/public/index.php/twitter/post', message);
     };
     DataStorageService = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["C" /* Injectable */])(),
@@ -2555,7 +2493,7 @@ var TokenStorageService = /** @class */ (function () {
         window.sessionStorage.setItem(TOKEN_KEY, token);
     };
     TokenStorageService.prototype.getToken = function () {
-        return sessionStorage.getItem(TOKEN_KEY);
+        return window.sessionStorage.getItem(TOKEN_KEY);
     };
     TokenStorageService = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["C" /* Injectable */])(),

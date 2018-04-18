@@ -24,9 +24,9 @@ class TwitterPostController extends FOSRestController
      */
     public function postTweet(TwitterService $twitter, Message $message)
     {
-        var_dump($message);
+        
         $twitter->setUp();
-        $twitter->testStatusesUpdate();
+        $twitter->testStatusesUpdate(strval($message->getMessage()));
         $view = $this->view('post sent', Response::HTTP_OK, []);
              return $this->handleView($view);
     }
