@@ -1,0 +1,17 @@
+<mat-card>
+  <mat-card-header>
+    <h2>{{game.date}}</h2>
+    <button mat-icon-button (click)="editGame(game.id)"><mat-icon class="update">create</mat-icon></button>
+  </mat-card-header>
+  <mat-card-content>
+    <div class="teams">
+    <p> Equipe Domicile : {{game.home_team}}</p>
+    <p> Equipe Visiteuse : {{game.away_team}}</p>
+    </div>
+    <mat-list class="joueurs">
+      <mat-list-item *ngFor="let player of game.roster">
+        {{player.name}}, {{player.surname}}, n°{{player.number}}, poste: {{player.poste}}
+      </mat-list-item>
+    </mat-list>
+  </mat-card-content>
+</mat-card>

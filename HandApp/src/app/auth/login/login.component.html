@@ -1,0 +1,19 @@
+<div class="pageheader">
+</div>
+<mat-card>
+  <mat-card-header>
+      <h2 class="login">Connectez-vous</h2>
+  </mat-card-header>
+  <mat-card-content>
+      <form [formGroup]='loginForm' (ngSubmit)="submit()">
+        <mat-form-field>
+
+          <input  matInput type="text" formControlName="_username" name="_username" id="_username" placeholder="Nom d'utilisateur">
+        </mat-form-field><br>
+        <mat-form-field>
+          <input matInput type="password" formControlName="_password" name="_password" id="_password" placeholder="Mot de Passe">
+        </mat-form-field><br>
+        <button mat-button [disabled]="!loginForm.valid" type="submit" >Connectez vous</button>
+      </form>
+  </mat-card-content>
+</mat-card>

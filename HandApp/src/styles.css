@@ -1,0 +1,43 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+}
+.pageheader{
+  background-image: url(/assets/img/banner.jpg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 200px;
+}
+
+.pageheader h2{
+  margin-top: 0;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color:#FAFAFA;
+  font-weight: 100;
+}
+
+.separator{
+  width: 1px;
+  background: rgba(0,0,0,.12);
+  height: 64px;
+}
+
+.buttons-and-separator{
+  display: flex;
+  justify-content: space-between;
+}
+.class-row{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: -48px;
+  background-color: #FAFAFA;
+}
+.first-part{
+  border-right: 1px solid rgba(0,0,0,.12);
+}
+
+

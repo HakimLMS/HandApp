@@ -1,0 +1,33 @@
+
+  <mat-card>
+  <mat-card-header></mat-card-header>
+  <mat-card-content>
+  <form [formGroup]="playerForm"  (ngSubmit)="onSubmit()">
+      <mat-form-field>
+        <input matInput placeholder="Nom" id="name" formControlName="name">
+        <mat-error *ngIf="playerForm.get('name').hasError('required') && playerForm.get('name').touched">Le nom doit faire au minimum 3 charactères</mat-error>
+      </mat-form-field><br><br *ngIf="playerForm.get('name').hasError('required') && playerForm.get('name').touched">
+      <mat-form-field>
+        <input matInput placeholder="Prénom" id="surname" formControlName="surname">
+        <mat-error *ngIf="playerForm.get('surname').hasError('required') && playerForm.get('surname').touched">Le prénom doit faire au minimum 3 charactères</mat-error>
+      </mat-form-field><br><br *ngIf="playerForm.get('surname').hasError('required') && playerForm.get('surname').touched">
+      <mat-form-field>
+        <input matInput placeholder="Numéro" id="number" formControlName="number" type="number">
+        <mat-error *ngIf="playerForm.get('number').hasError('required') && playerForm.get('number').touched">Entrez un numéro entre 1 et 99</mat-error>
+      </mat-form-field><br><br *ngIf="playerForm.get('number').hasError('required') && playerForm.get('number').touched">
+      <mat-form-field>
+        <input matInput placeholder="Poste" id="poste" formControlName="poste">
+      </mat-form-field><br>
+      <mat-form-field>
+        <input matInput placeholder="Nombre de match joués" id="matchcount" formControlName="matchcount">
+        <mat-error *ngIf="playerForm.get('matchcount').hasError('required') && playerForm.get('matchcount').touched">Entrez un nombre de match entre 0 et 100</mat-error>
+      </mat-form-field><br><br *ngIf="playerForm.get('matchcount').hasError('required') && playerForm.get('matchcount').touched">
+    <!--
+    <mat-form-field>
+        <input matInput placeholder="Photo" id="photo" formControlName="photo" >
+      </mat-form-field><br>
+      //-->
+    <button mat-button type="submit" [disabled]="!playerForm.valid"> Enregistrer </button>
+    </form>
+  </mat-card-content>
+</mat-card>

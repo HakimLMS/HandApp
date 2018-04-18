@@ -1,0 +1,63 @@
+mat-card{
+  color: #006db3 !important;
+}
+.player-card{
+  width: 80%;
+  margin: auto;
+  max-width: 1440px;
+  margin-top: -50px;
+}
+.mat-card-content{
+  flex-direction: row;
+  box-sizing: border-box;
+  display: flex;
+}
+.mat-card-content mat-list{
+  width: 100%;
+}
+.card-part{
+  width: 50%;
+}
+.mat-card-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: lighter;
+}
+.mat-card-title{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.mat-card-header h2{
+  font-weight: lighter;
+}
+
+.mat-card-header-text{
+  width: 100% !important;
+}
+.mat-mini-fab{
+  background-color: #006db3;
+  color: white;
+}
+
+.cta{
+  padding-top: 150px;
+  text-align: center;
+}
+.cta .material-icons {
+font-size: 150px;
+}
+.cta h2{
+  font-weight: lighter;
+}
+@media screen and (max-width: 700px){
+  .mat-card-content{
+    display: block;
+  }
+
+  .card-part{
+    width: 100%;
+  }
+}

@@ -1,0 +1,17 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="header-image"></div>
+    <mat-card-title><h3>{{selectedPlayer.name}}</h3> {{selectedPlayer.surname}}</mat-card-title>
+    <mat-card-subtitle>Numéro {{selectedPlayer.number}}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="../../../assets/img/avatar.png" alt="Photo of Handball player {{selectedPlayer.name}}">
+  <mat-card-content>
+    <p>
+      Poste: {{selectedPlayer.poste}} Match joués:{{selectedPlayer.matchcount}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button (click)="onDelete()"><mat-icon class="delete">close</mat-icon></button>
+    <button mat-button (click)="onEdit(+selectedPlayer.id)"><mat-icon class="update">create</mat-icon></button>
+  </mat-card-actions>
+</mat-card>

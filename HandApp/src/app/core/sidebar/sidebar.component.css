@@ -1,0 +1,57 @@
+nav {
+  color: #263238;
+}
+
+.mat-list-item{
+  display: flex;
+  justify-content: space-between;
+  color: #CFD8DC;
+}
+.user{
+  color: #CFD8DC;
+}
+.user mat-icon {
+  padding-left: 86px;
+}
+.user h2{
+  padding-left: 40px;
+  font-weight: lighter;
+}
+.mat-list-item:hover {
+  background-color: #2979ff;;
+}
+
+mat-icon.home{
+  position: relative;
+  top: 5px;
+}
+
+mat-nav-list {
+  margin-top: 60%;
+}
+.mat-list-item mat-icon{
+  margin-right: 40px;
+}
+mat-list-item{
+  margin-top: 0px;
+}
+hr {
+  border: 0.5px black solid;
+;
+}
+.navbutton{
+  display: block;
+}
+.navbutton a span{
+  padding-left: 15px;
+}
+.mat-list-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+mat-list a{
+  margin-left: 50px;
+  color: #CFD8DC;
+}

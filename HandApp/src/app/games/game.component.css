@@ -1,0 +1,35 @@
+.addGameButton{
+  max-height: 50px;
+  max-width: 50px;
+  z-index: 3;
+  margin-right: -20px;
+  margin-top: -20px;
+  background-color: #006db3;
+  color: #FAFAFA;
+}
+
+.games{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.part2{
+  margin-top: 20px;
+  width: 81%;
+  margin-left: 10%;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1024px){
+  .games{
+    display: block;
+  }
+.part2{
+  width: 100%;
+  margin-left: 0;
+}
+  .addGameButton{
+margin-bottom: -25px;
+  }
+}

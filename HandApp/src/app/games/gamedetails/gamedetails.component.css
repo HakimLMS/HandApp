@@ -1,0 +1,10 @@
+.teams{
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  font-size: large;
+}
+.mat-card-header{
+  display: flex;
+  justify-content: center;
+}

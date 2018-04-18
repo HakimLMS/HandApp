@@ -1,0 +1,17 @@
+<div class="container">
+    <mat-toolbar [class.mat-elevation-z8]="true">
+      <div class="buttons-and-separator">
+      <button mat-button (click)="snav.toggle()" ><i class="material-icons">menu</i></button>
+      <div class="separator"></div>
+      </div>
+      <app-header></app-header>
+    </mat-toolbar>
+    <mat-sidenav-container class="example-container">
+      <mat-sidenav #snav mode="push">
+        <app-sidebar (click)="snav.toggle()"></app-sidebar>
+      </mat-sidenav>
+      <mat-sidenav-content>
+        <router-outlet></router-outlet>
+      </mat-sidenav-content>
+    </mat-sidenav-container>
+</div>

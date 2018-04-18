@@ -1,0 +1,19 @@
+fos_rest:
+    view:
+        formats: { json: true, xml: false, rss: false}
+    exception :
+        exception_controller : 'fos_rest.exception.controller:showAction'
+        enabled : true
+        codes:
+            { App\Exceptions\RessourcesValidationException: 400}
+    serializer:
+        serialize_null: true
+    body_converter:
+        enabled: true
+        validate: true
+        validation_errors_argument: violations
+    format_listener:
+        rules:
+            - { path: '^/', priorities: ['json'], fallback_format: 'json'}
+    routing_loader:
+        prefix_methods: false

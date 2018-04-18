@@ -1,0 +1,17 @@
+.docs-primary-header {
+  text-align: center;
+  display: flex;
+  justify-content:space-between;
+}
+
+div.app-title{
+  color: rgba(0,0,0,.54);
+
+}
+.app-title h1{
+  margin-right: 20px;
+  font-weight: lighter;
+  font-size: large;
+}
+
+

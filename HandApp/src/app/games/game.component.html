@@ -1,0 +1,21 @@
+<div class="pageheader">
+</div>
+<div class="games">
+  <button class="addGameButton" mat-mini-fab routerLink="edit/"><i class="material-icons">add</i></button>
+    <div class="game-wrapper" *ngFor="let game of (gamesState | async).games">
+      <mat-card>
+        <mat-card-header>
+          <mat-card-title><h3>{{game.date}}</h3></mat-card-title>
+        </mat-card-header><hr>
+        <mat-card-content>
+          <p>Domicile: {{game.home_team}}</p>
+          <p>Exterieur: {{game.away_team}}</p>
+        </mat-card-content>
+        <button mat-button (click)="deleteGame(game.id)"><mat-icon class="update"><mat-icon class="delete">close</mat-icon></mat-icon></button>
+        <button mat-button [disabled]="" (click)="onGameDetails(game.id)"><span class="material-icons">info_outline</span></button>
+      </mat-card>
+    </div>
+</div>
+<div class="part2">
+<router-outlet></router-outlet>
+</div>

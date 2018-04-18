@@ -1,0 +1,24 @@
+<mat-card>
+  <mat-card-content>
+      <form [formGroup]="gameForm" (ngSubmit)="onSubmit()">
+        <mat-form-field>
+        <input matInput [matDatepicker]="picker" formControlName="date" placeholder="Date" id="date" name="date">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field><br>
+        <mat-form-field>
+          <input matInput formControlName="gameHome_Team" type="text" placeholder="Equipe Domicile" id="gameHome_Team" name="gameHome_Team">
+        </mat-form-field><br>
+        <mat-form-field>
+          <input matInput formControlName="gameAway_Team" type="text" placeholder="Equipe Extérieure" id="gameAway_Team" name="gameAway_Team">
+        </mat-form-field><br>
+        <mat-form-field>
+          <mat-select formControlName="gameRoster" name="gameRoster" placeholder="Effectif" multiple #gameRoster>
+            <mat-option *ngFor="let player of (playersState| async).players" type="checkbox"  [value]="player">{{player.name}} {{player.surname}}, N°{{player.number}}, {{player.poste}},</mat-option>
+          </mat-select>
+        </mat-form-field><br>
+        <button mat-button type="submit" [disabled]="!gameForm.valid"> Enregistrer </button>
+        <button mat-button type="submit" (click)="onSendRoster()" [disabled]="gameRoster.value == null && !gameForm.valid"> Envoyer effectif </button>
+      </form>
+  </mat-card-content>
+</mat-card>

@@ -1,0 +1,10 @@
+.mat-card{
+  height: 92%;
+  color: #006db3 !important;
+}
+mat-card-content form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+

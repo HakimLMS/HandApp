@@ -1,0 +1,1410 @@
+[ 2018-04-17 00:37:31.5868 27115/7fc0cc7d2780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:37:31.5985 27118/7f901efb3780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:37:31.5986 27118/7f901efb3780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:37:31.5997 27118/7f901efb3780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 27118
+[ 2018-04-17 00:37:31.6152 27123/7ff1bac35780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:37:31.6158 27123/7ff1bac35780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 27123
+
+[ 2018-04-17 00:37:31.6396 27118/7f901878c700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:37:31.6397 27118/7f901efb3780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:37:31.6397 27118/7f9017f8b700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:37:31.6397 27118/7f9017f8b700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:37:31.6398 27118/7f901878c700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:37:31.6398 27118/7f901878c700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 00:37:31.6405 27123/7ff1b45e9700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:37:31.6405 27123/7ff1bac35780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:37:31.6405 27123/7ff1b3de8700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:37:31.6405 27123/7ff1b3de8700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:37:31.6407 27123/7ff1b45e9700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:37:31.6409 27123/7ff1bac35780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:37:31.6607 27118/7f901efb3780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 00:37:31.6680 27141/7fdc3d530780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:37:31.7357 27146/7f7168ab3780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:37:31.7358 27146/7f7168ab3780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:37:31.7421 27146/7f7168ab3780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 27146
+[ 2018-04-17 00:37:31.7559 27171/7fc505897780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:37:31.7565 27171/7fc505897780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 27171
+[Tue Apr 17 00:37:31.757358 2018] [mpm_event:notice] [pid 27139:tid 139889421939904] AH00489: Apache/2.4.25 (Debian) Phusion_Passenger/5.0.30 configured -- resuming normal operations
+[Tue Apr 17 00:37:31.757447 2018] [core:notice] [pid 27139:tid 139889421939904] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 17 00:37:36.523265 2018] [mpm_event:notice] [pid 27139:tid 139889421939904] AH00491: caught SIGTERM, shutting down
+
+[ 2018-04-17 00:37:36.5237 27146/7f716228c700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2018-04-17 00:37:36.5237 27171/7fc4ff24b700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:37:36.5239 27171/7fc505897780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:37:36.5239 27171/7fc4fea4a700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:37:36.5239 27171/7fc4fea4a700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:37:36.5239 27146/7f7168ab3780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:37:36.5240 27146/7f7161a8b700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:37:36.5240 27146/7f7161a8b700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:37:36.5241 27171/7fc4ff24b700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:37:36.5242 27146/7f716228c700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:37:36.5242 27146/7f716228c700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2018-04-17 00:37:36.5246 27171/7fc505897780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:37:36.5387 27146/7f7168ab3780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 00:37:36.5928 27360/7f00d207e780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:37:36.5990 27363/7fbad1fe3780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:37:36.5991 27363/7fbad1fe3780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:37:36.5997 27363/7fbad1fe3780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 27363
+[ 2018-04-17 00:37:36.6070 27368/7f2c40712780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:37:36.6074 27368/7f2c40712780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 27368
+
+[ 2018-04-17 00:37:36.6155 27363/7fbacb7bc700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:37:36.6155 27363/7fbad1fe3780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:37:36.6156 27363/7fbacafbb700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:37:36.6156 27363/7fbacafbb700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:37:36.6158 27363/7fbacb7bc700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:37:36.6162 27363/7fbacb7bc700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 00:37:36.6169 27368/7f2c3a0c6700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:37:36.6169 27368/7f2c40712780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:37:36.6169 27368/7f2c3a0c6700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:37:36.6169 27368/7f2c398c5700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:37:36.6169 27368/7f2c398c5700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:37:36.6171 27368/7f2c40712780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:37:36.6254 27387/7ff713cf2780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:37:36.6315 27390/7f89ba80b780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:37:36.6316 27390/7f89ba80b780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:37:36.6322 27390/7f89ba80b780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 27390
+[ 2018-04-17 00:37:36.6371 27363/7fbad1fe3780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 00:37:36.6407 27395/7f8003156780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:37:36.6417 27395/7f8003156780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 27395
+[Tue Apr 17 00:37:36.642441 2018] [mpm_event:notice] [pid 27384:tid 140370685875392] AH00489: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 configured -- resuming normal operations
+[Tue Apr 17 00:37:36.642517 2018] [core:notice] [pid 27384:tid 140370685875392] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 17 00:37:38.094302 2018] [mpm_event:notice] [pid 27384:tid 140370685875392] AH00491: caught SIGTERM, shutting down
+
+[ 2018-04-17 00:37:38.0948 27390/7f89b3fe4700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2018-04-17 00:37:38.0948 27395/7f7ffcb0a700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:37:38.0950 27395/7f8003156780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:37:38.0951 27395/7f7ff7fff700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:37:38.0951 27395/7f7ff7fff700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:37:38.0951 27390/7f89ba80b780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:37:38.0952 27390/7f89b37e3700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:37:38.0952 27390/7f89b37e3700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:37:38.0954 27395/7f7ffcb0a700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:37:38.0955 27390/7f89b3fe4700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:37:38.0955 27390/7f89b3fe4700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2018-04-17 00:37:38.0961 27395/7f8003156780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:37:38.1109 27390/7f89ba80b780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 00:37:38.2178 27533/7f4a8a1b6780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:37:38.2285 27536/7f04caee3780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:37:38.2287 27536/7f04caee3780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:37:38.2298 27536/7f04caee3780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 27536
+[ 2018-04-17 00:37:38.2420 27541/7f8dc5bad780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:37:38.2427 27541/7f8dc5bad780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 27541
+
+[ 2018-04-17 00:37:38.2551 27536/7f04c46bc700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:37:38.2551 27536/7f04caee3780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:37:38.2552 27536/7f04c3ebb700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:37:38.2552 27536/7f04c3ebb700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:37:38.2552 27536/7f04c46bc700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:37:38.2552 27536/7f04c46bc700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 00:37:38.2557 27541/7f8dbf561700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:37:38.2558 27541/7f8dc5bad780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:37:38.2558 27541/7f8dbf561700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:37:38.2558 27541/7f8dbed60700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:37:38.2558 27541/7f8dbed60700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:37:38.2561 27541/7f8dc5bad780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:37:38.2759 27536/7f04caee3780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 00:37:38.2808 27562/7f79cb2f3780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:37:38.3008 27565/7f8144d11780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:37:38.3008 27565/7f8144d11780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:37:38.3017 27565/7f8144d11780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 27565
+[ 2018-04-17 00:37:38.3191 27573/7f9ed78dd780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:37:38.3196 27573/7f9ed78dd780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 27573
+[Tue Apr 17 00:37:38.319915 2018] [:error] [pid 27557:tid 140595885294784] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 00:37:38.320030 2018] [:error] [pid 27557:tid 140595885294784] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 00:37:38.320036 2018] [:error] [pid 27557:tid 140595885294784] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 00:37:38.320054 2018] [:notice] [pid 27557:tid 140595885294784] mod_python: Creating 8 session mutexes based on 6 max processes and 25 max threads.
+[Tue Apr 17 00:37:38.320058 2018] [:notice] [pid 27557:tid 140595885294784] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 00:37:38.337064 2018] [mpm_event:notice] [pid 27557:tid 140595885294784] AH00489: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 configured -- resuming normal operations
+[Tue Apr 17 00:37:38.337094 2018] [core:notice] [pid 27557:tid 140595885294784] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 17 00:37:43.676514 2018] [mpm_event:notice] [pid 27557:tid 140595885294784] AH00491: caught SIGTERM, shutting down
+
+[ 2018-04-17 00:37:43.6769 27565/7f813e4ea700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2018-04-17 00:37:43.6770 27573/7f9ed1291700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:37:43.6771 27573/7f9ed78dd780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:37:43.6772 27573/7f9ed0a90700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:37:43.6772 27573/7f9ed0a90700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:37:43.6772 27565/7f8144d11780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:37:43.6772 27565/7f813dce9700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:37:43.6773 27565/7f813dce9700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:37:43.6774 27573/7f9ed1291700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:37:43.6775 27565/7f813e4ea700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:37:43.6775 27565/7f813e4ea700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2018-04-17 00:37:43.6780 27573/7f9ed78dd780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:37:43.6925 27565/7f8144d11780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 00:37:43.7875 29983/7f6ad82f3780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:37:43.7974 29986/7fe4a514c780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:37:43.7975 29986/7fe4a514c780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:37:43.7985 29986/7fe4a514c780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 29986
+[ 2018-04-17 00:37:43.8099 29991/7f0ab4ab2780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:37:43.8105 29991/7f0ab4ab2780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 29991
+
+[ 2018-04-17 00:37:43.8168 29986/7fe49e925700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:37:43.8168 29986/7fe4a514c780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:37:43.8169 29986/7fe49e124700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:37:43.8169 29986/7fe49e124700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:37:43.8169 29986/7fe49e925700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:37:43.8169 29986/7fe49e925700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 00:37:43.8229 29991/7f0aae466700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:37:43.8229 29991/7f0ab4ab2780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:37:43.8229 29991/7f0aae466700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:37:43.8230 29991/7f0aadc65700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:37:43.8230 29991/7f0aadc65700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:37:43.8232 29991/7f0ab4ab2780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:37:43.8377 29986/7fe4a514c780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 00:37:43.8449 30011/7f60f2ead780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:37:43.8582 30016/7f70f8cb8780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:37:43.8583 30016/7f70f8cb8780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:37:43.8592 30016/7f70f8cb8780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 30016
+[ 2018-04-17 00:37:43.8789 30025/7ff5f6026780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:37:43.8794 30025/7ff5f6026780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 30025
+[Tue Apr 17 00:37:43.879713 2018] [:error] [pid 30007] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 00:37:43.879814 2018] [:error] [pid 30007] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 00:37:43.879818 2018] [:error] [pid 30007] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 00:37:43.879834 2018] [:notice] [pid 30007] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Apr 17 00:37:43.879838 2018] [:notice] [pid 30007] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 00:37:43.898053 2018] [mpm_prefork:notice] [pid 30007] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 configured -- resuming normal operations
+[Tue Apr 17 00:37:43.898076 2018] [core:notice] [pid 30007] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 17 00:37:45.203814 2018] [mpm_prefork:notice] [pid 30007] AH00169: caught SIGTERM, shutting down
+
+[ 2018-04-17 00:37:45.2042 30016/7f70f2491700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2018-04-17 00:37:45.2043 30025/7ff5ef9da700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:37:45.2044 30025/7ff5f6026780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:37:45.2045 30025/7ff5ef1d9700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:37:45.2045 30025/7ff5ef1d9700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:37:45.2045 30016/7f70f8cb8780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:37:45.2045 30016/7f70f1c90700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:37:45.2045 30016/7f70f1c90700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:37:45.2045 30025/7ff5ef9da700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:37:45.2048 30016/7f70f2491700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:37:45.2048 30016/7f70f2491700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2018-04-17 00:37:45.2052 30025/7ff5f6026780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:37:45.2188 30016/7f70f8cb8780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 00:37:45.3029 30102/7f3da6781780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:37:45.3092 30105/7fc796a13780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:37:45.3093 30105/7fc796a13780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:37:45.3099 30105/7fc796a13780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 30105
+[ 2018-04-17 00:37:45.3175 30110/7f6498a92780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:37:45.3179 30110/7f6498a92780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 30110
+
+[ 2018-04-17 00:37:45.3239 30105/7fc7901ec700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:37:45.3240 30105/7fc796a13780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:37:45.3240 30105/7fc78f9eb700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:37:45.3240 30105/7fc78f9eb700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:37:45.3240 30105/7fc7901ec700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:37:45.3240 30105/7fc7901ec700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 00:37:45.3244 30110/7f6492446700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:37:45.3244 30110/7f6498a92780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:37:45.3244 30110/7f6492446700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:37:45.3244 30110/7f6491c45700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:37:45.3244 30110/7f6491c45700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:37:45.3246 30110/7f6498a92780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:37:45.3403 30129/7f16fdede780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:37:45.3445 30105/7fc796a13780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 00:37:45.3475 30132/7fe332b9a780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:37:45.3475 30132/7fe332b9a780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:37:45.3481 30132/7fe332b9a780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 30132
+[ 2018-04-17 00:37:45.3552 30137/7fe0ae5f5780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:37:45.3558 30137/7fe0ae5f5780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 30137
+[Tue Apr 17 00:37:45.737576 2018] [:error] [pid 30126] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 00:37:45.737723 2018] [:error] [pid 30126] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 00:37:45.737731 2018] [:error] [pid 30126] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 00:37:45.737759 2018] [:notice] [pid 30126] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Apr 17 00:37:45.737766 2018] [:notice] [pid 30126] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 00:37:45.753997 2018] [mpm_prefork:notice] [pid 30126] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 configured -- resuming normal operations
+[Tue Apr 17 00:37:45.754032 2018] [core:notice] [pid 30126] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 17 00:39:28.613350 2018] [mpm_prefork:notice] [pid 30126] AH00171: Graceful restart requested, doing restart
+
+[ 2018-04-17 00:39:28.6438 30132/7fe32c373700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:39:28.6438 30132/7fe332b9a780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:39:28.6438 30132/7fe32bb72700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:39:28.6438 30132/7fe32bb72700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:39:28.6439 30132/7fe32c373700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:39:28.6439 30132/7fe32c373700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 00:39:28.6443 30137/7fe0a7fa9700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:39:28.6443 30137/7fe0ae5f5780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:39:28.6443 30137/7fe0a77a8700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:39:28.6443 30137/7fe0a77a8700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:39:28.6444 30137/7fe0a7fa9700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:39:28.6445 30137/7fe0ae5f5780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:39:28.6651 30132/7fe332b9a780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 00:39:28.7277 8420/7f80d32c1780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:39:28.7371 8424/7ff5a822b780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:39:28.7372 8424/7ff5a822b780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:39:28.7378 8424/7ff5a822b780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 8424
+[ 2018-04-17 00:39:28.7461 8429/7f0b067a3780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:39:28.7465 8429/7f0b067a3780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 8429
+[Tue Apr 17 00:39:28.776237 2018] [:error] [pid 30126] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 00:39:28.776298 2018] [:error] [pid 30126] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 00:39:28.776302 2018] [:error] [pid 30126] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 00:39:28.776309 2018] [:notice] [pid 30126] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Apr 17 00:39:28.776315 2018] [:notice] [pid 30126] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 00:39:28.782560 2018] [mpm_prefork:notice] [pid 30126] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 configured -- resuming normal operations
+[Tue Apr 17 00:39:28.782573 2018] [core:notice] [pid 30126] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 17 00:39:30.981929 2018] [mpm_prefork:notice] [pid 30126] AH00171: Graceful restart requested, doing restart
+
+[ 2018-04-17 00:39:31.0123 8424/7ff5a1a05700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:39:31.0123 8424/7ff5a822b780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:39:31.0124 8424/7ff5a1204700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:39:31.0124 8424/7ff5a1204700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:39:31.0124 8424/7ff5a1a05700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:39:31.0124 8424/7ff5a1a05700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 00:39:31.0127 8429/7f0b00158700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:39:31.0128 8429/7f0b067a3780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:39:31.0128 8429/7f0aff957700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:39:31.0128 8429/7f0aff957700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:39:31.0129 8429/7f0b00158700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:39:31.0129 8429/7f0b067a3780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:39:31.0329 8424/7ff5a822b780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 00:39:31.1291 8493/7f9a73266780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:39:31.1414 8496/7f1140cec780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:39:31.1415 8496/7f1140cec780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:39:31.1424 8496/7f1140cec780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 8496
+[ 2018-04-17 00:39:31.1526 8501/7f26020ec780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:39:31.1532 8501/7f26020ec780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 8501
+[Tue Apr 17 00:39:31.192282 2018] [:error] [pid 30126] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 00:39:31.192361 2018] [:error] [pid 30126] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 00:39:31.192366 2018] [:error] [pid 30126] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 00:39:31.192375 2018] [:notice] [pid 30126] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Apr 17 00:39:31.192382 2018] [:notice] [pid 30126] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 00:39:31.200225 2018] [mpm_prefork:notice] [pid 30126] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 configured -- resuming normal operations
+[Tue Apr 17 00:39:31.200241 2018] [core:notice] [pid 30126] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 17 00:39:32.093096 2018] [mpm_prefork:notice] [pid 30126] AH00169: caught SIGTERM, shutting down
+
+[ 2018-04-17 00:39:32.0934 8496/7f113a4c6700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2018-04-17 00:39:32.0934 8501/7f25fbaa1700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:39:32.0936 8501/7f26020ec780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:39:32.0936 8501/7f25fb2a0700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:39:32.0936 8501/7f25fb2a0700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:39:32.0936 8496/7f1140cec780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:39:32.0937 8496/7f1139cc5700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:39:32.0937 8496/7f1139cc5700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:39:32.0938 8501/7f25fbaa1700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:39:32.0939 8496/7f113a4c6700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:39:32.0939 8496/7f113a4c6700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2018-04-17 00:39:32.0943 8501/7f26020ec780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:39:32.1082 8496/7f1140cec780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 00:39:32.2283 8607/7f743f429780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:39:32.2363 8610/7f7310387780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:39:32.2364 8610/7f7310387780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:39:32.2372 8610/7f7310387780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 8610
+[ 2018-04-17 00:39:32.2465 8615/7f94e536c780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:39:32.2470 8615/7f94e536c780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 8615
+[Tue Apr 17 00:39:32.247479 2018] [suexec:notice] [pid 8606] AH01232: suEXEC mechanism enabled (wrapper: /usr/lib/apache2/suexec)
+
+[ 2018-04-17 00:39:32.2568 8610/7f7309b61700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:39:32.2568 8610/7f7310387780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:39:32.2568 8610/7f7309360700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:39:32.2569 8610/7f7309360700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:39:32.2569 8610/7f7309b61700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:39:32.2569 8610/7f7309b61700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 00:39:32.2573 8615/7f94ded21700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:39:32.2574 8615/7f94e536c780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:39:32.2574 8615/7f94ded21700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:39:32.2574 8615/7f94de520700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:39:32.2574 8615/7f94de520700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:39:32.2576 8615/7f94e536c780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:39:32.2775 8610/7f7310387780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 00:39:32.3011 8635/7f6e9a3cc780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:39:32.3168 8642/7fde38b88780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:39:32.3169 8642/7fde38b88780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:39:32.3175 8642/7fde38b88780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 8642
+[ 2018-04-17 00:39:32.3318 8647/7f5d01562780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:39:32.3323 8647/7f5d01562780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 8647
+[Tue Apr 17 00:39:32.384548 2018] [:error] [pid 8631] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 00:39:32.384608 2018] [:error] [pid 8631] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 00:39:32.384611 2018] [:error] [pid 8631] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 00:39:32.392678 2018] [:notice] [pid 8631] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Apr 17 00:39:32.392683 2018] [:notice] [pid 8631] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 00:39:32.414630 2018] [mpm_prefork:notice] [pid 8631] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 OpenSSL/1.0.2l configured -- resuming normal operations
+[Tue Apr 17 00:39:32.414658 2018] [core:notice] [pid 8631] AH00094: Command line: '/usr/sbin/apache2'
+
+[ 2018-04-17 00:39:57.0052 8642/7fde32362700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2018-04-17 00:39:57.0053 8647/7f5cfaf17700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:39:57.0054 8647/7f5d01562780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:39:57.0055 8647/7f5cfa716700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:39:57.0055 8647/7f5cfa716700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:39:57.0055 8642/7fde38b88780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:39:57.0055 8642/7fde31b61700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:39:57.0055 8642/7fde31b61700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:39:57.0056 8647/7f5cfaf17700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:39:57.0058 8642/7fde32362700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:39:57.0058 8642/7fde32362700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2018-04-17 00:39:57.0061 8647/7f5d01562780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:39:57.0219 8642/7fde38b88780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[Tue Apr 17 00:39:57.267370 2018] [mpm_prefork:notice] [pid 8631] AH00169: caught SIGTERM, shutting down
+[ 2018-04-17 00:39:57.4273 9548/7f1ceffa7780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:39:57.4367 9551/7fc28afbd780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:39:57.4368 9551/7fc28afbd780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:39:57.4377 9551/7fc28afbd780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 9551
+[ 2018-04-17 00:39:57.4485 9556/7f3e021b0780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:39:57.4492 9556/7f3e021b0780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 9556
+[Tue Apr 17 00:39:57.449699 2018] [suexec:notice] [pid 9547] AH01232: suEXEC mechanism enabled (wrapper: /usr/lib/apache2/suexec)
+
+[ 2018-04-17 00:39:57.4568 9551/7fc284797700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:39:57.4568 9551/7fc28afbd780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:39:57.4569 9551/7fc283f96700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:39:57.4569 9551/7fc283f96700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:39:57.4570 9551/7fc284797700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:39:57.4570 9551/7fc284797700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 00:39:57.4575 9556/7f3dfbb65700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:39:57.4575 9556/7f3e021b0780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:39:57.4575 9556/7f3dfbb65700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:39:57.4575 9556/7f3dfb364700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:39:57.4575 9556/7f3dfb364700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:39:57.4577 9556/7f3e021b0780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:39:57.4781 9551/7fc28afbd780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 00:39:57.5128 9577/7f9d808b7780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:39:57.5264 9583/7fdc691be780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:39:57.5265 9583/7fdc691be780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:39:57.5272 9583/7fdc691be780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 9583
+[ 2018-04-17 00:39:57.5440 9588/7f0ed90bc780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:39:57.5445 9588/7f0ed90bc780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 9588
+[Tue Apr 17 00:39:57.603840 2018] [:error] [pid 9572] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 00:39:57.603909 2018] [:error] [pid 9572] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 00:39:57.603912 2018] [:error] [pid 9572] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 00:39:57.603926 2018] [:notice] [pid 9572] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Apr 17 00:39:57.603929 2018] [:notice] [pid 9572] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 00:39:57.627700 2018] [mpm_prefork:notice] [pid 9572] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 OpenSSL/1.0.2l configured -- resuming normal operations
+[Tue Apr 17 00:39:57.627726 2018] [core:notice] [pid 9572] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 17 00:42:16.500445 2018] [mpm_prefork:notice] [pid 9572] AH00171: Graceful restart requested, doing restart
+
+[ 2018-04-17 00:42:16.5588 9583/7fdc62998700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:42:16.5588 9583/7fdc691be780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:42:16.5588 9583/7fdc62197700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:42:16.5588 9583/7fdc62197700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:42:16.5589 9583/7fdc62998700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:42:16.5589 9583/7fdc62998700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 00:42:16.5593 9588/7f0ed2a71700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:42:16.5593 9588/7f0ed90bc780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:42:16.5593 9588/7f0ed2270700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:42:16.5594 9588/7f0ed2270700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:42:16.5595 9588/7f0ed2a71700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:42:16.5595 9588/7f0ed90bc780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:42:16.6426 9583/7fdc691be780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 00:42:16.7020 16775/7fe78bdb5780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:42:16.7105 16778/7ff0cc90c780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:42:16.7106 16778/7ff0cc90c780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:42:16.7114 16778/7ff0cc90c780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 16778
+[ 2018-04-17 00:42:16.7212 16783/7f13e893a780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:42:16.7218 16783/7f13e893a780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 16783
+[Tue Apr 17 00:42:16.773297 2018] [:error] [pid 9572] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 00:42:16.773381 2018] [:error] [pid 9572] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 00:42:16.773385 2018] [:error] [pid 9572] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 00:42:16.773396 2018] [:notice] [pid 9572] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Apr 17 00:42:16.773403 2018] [:notice] [pid 9572] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 00:42:16.782826 2018] [mpm_prefork:notice] [pid 9572] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 OpenSSL/1.0.2l configured -- resuming normal operations
+[Tue Apr 17 00:42:16.782844 2018] [core:notice] [pid 9572] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 17 00:42:17.812852 2018] [mpm_prefork:notice] [pid 9572] AH00171: Graceful restart requested, doing restart
+
+[ 2018-04-17 00:42:17.8682 16778/7ff0c60e6700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:42:17.8682 16778/7ff0cc90c780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:42:17.8682 16778/7ff0c58e5700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:42:17.8682 16778/7ff0c58e5700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:42:17.8683 16778/7ff0c60e6700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:42:17.8683 16778/7ff0c60e6700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 00:42:17.8687 16783/7f13e22ef700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:42:17.8687 16783/7f13e893a780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:42:17.8688 16783/7f13e1aee700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:42:17.8688 16783/7f13e1aee700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:42:17.8689 16783/7f13e22ef700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:42:17.8690 16783/7f13e893a780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:42:17.8889 16778/7ff0cc90c780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 00:42:17.9849 16840/7efdb00bf780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:42:18.0050 16843/7f9a9a125780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:42:18.0051 16843/7f9a9a125780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:42:18.0060 16843/7f9a9a125780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 16843
+[ 2018-04-17 00:42:18.0186 16848/7f10a4c24780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:42:18.0193 16848/7f10a4c24780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 16848
+[Tue Apr 17 00:42:18.058751 2018] [:error] [pid 9572] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 00:42:18.058837 2018] [:error] [pid 9572] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 00:42:18.058842 2018] [:error] [pid 9572] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 00:42:18.058852 2018] [:notice] [pid 9572] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Apr 17 00:42:18.058859 2018] [:notice] [pid 9572] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 00:42:18.068105 2018] [mpm_prefork:notice] [pid 9572] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 OpenSSL/1.0.2l configured -- resuming normal operations
+[Tue Apr 17 00:42:18.068122 2018] [core:notice] [pid 9572] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 17 00:42:19.298886 2018] [mpm_prefork:notice] [pid 9572] AH00171: Graceful restart requested, doing restart
+
+[ 2018-04-17 00:42:19.3626 16843/7f9a938ff700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:42:19.3626 16843/7f9a9a125780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:42:19.3627 16843/7f9a930fe700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:42:19.3627 16843/7f9a930fe700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:42:19.3627 16843/7f9a938ff700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:42:19.3627 16843/7f9a938ff700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 00:42:19.3632 16848/7f109e5d9700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:42:19.3633 16848/7f10a4c24780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:42:19.3633 16848/7f109ddd8700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:42:19.3633 16848/7f109ddd8700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:42:19.3635 16848/7f109e5d9700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:42:19.3636 16848/7f10a4c24780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:42:19.4006 16843/7f9a9a125780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[Tue Apr 17 00:42:19.445061 2018] [core:notice] [pid 9572] AH00060: seg fault or similar nasty error detected in the parent process
+[ 2018-04-17 00:42:19.5077 16920/7f11ea112780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:42:19.5137 16923/7fbf1a895780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:42:19.5138 16923/7fbf1a895780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:42:19.5144 16923/7fbf1a895780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 16923
+[ 2018-04-17 00:42:19.5216 16928/7f68c5d01780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:42:19.5220 16928/7f68c5d01780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 16928
+[Tue Apr 17 00:42:19.522393 2018] [suexec:notice] [pid 16919] AH01232: suEXEC mechanism enabled (wrapper: /usr/lib/apache2/suexec)
+
+[ 2018-04-17 00:42:19.5287 16923/7fbf1406f700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:42:19.5287 16923/7fbf1a895780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:42:19.5288 16923/7fbf1386e700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:42:19.5288 16923/7fbf1386e700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:42:19.5288 16923/7fbf1406f700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:42:19.5288 16923/7fbf1406f700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 00:42:19.5292 16928/7f68bf6b6700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:42:19.5292 16928/7f68c5d01780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:42:19.5292 16928/7f68bf6b6700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:42:19.5292 16928/7f68beeb5700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:42:19.5292 16928/7f68beeb5700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:42:19.5293 16928/7f68c5d01780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:42:19.5495 16923/7fbf1a895780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 00:42:19.5647 16948/7f5a3b4ec780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:42:19.5791 16952/7ffa5252d780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:42:19.5792 16952/7ffa5252d780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:42:19.5798 16952/7ffa5252d780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 16952
+[ 2018-04-17 00:42:19.5945 16960/7f6d3a7e3780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:42:19.5949 16960/7f6d3a7e3780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 16960
+[Tue Apr 17 00:42:19.650960 2018] [:error] [pid 16944] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 00:42:19.651025 2018] [:error] [pid 16944] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 00:42:19.651029 2018] [:error] [pid 16944] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 00:42:19.651044 2018] [:notice] [pid 16944] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Apr 17 00:42:19.651047 2018] [:notice] [pid 16944] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 00:42:19.669457 2018] [core:warn] [pid 16944] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 17 00:42:19.679006 2018] [mpm_prefork:notice] [pid 16944] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 OpenSSL/1.0.2l configured -- resuming normal operations
+[Tue Apr 17 00:42:19.679026 2018] [core:notice] [pid 16944] AH00094: Command line: '/usr/sbin/apache2'
+
+[ 2018-04-17 00:47:16.0093 16952/7ffa4bd07700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2018-04-17 00:47:16.0094 16960/7f6d34198700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:47:16.0095 16960/7f6d3a7e3780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:47:16.0096 16960/7f6d33997700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:47:16.0096 16960/7f6d33997700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:47:16.0096 16952/7ffa5252d780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:47:16.0096 16952/7ffa4b506700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:47:16.0097 16952/7ffa4b506700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:47:16.0098 16960/7f6d34198700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:47:16.0100 16952/7ffa4bd07700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:47:16.0100 16952/7ffa4bd07700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2018-04-17 00:47:16.0102 16960/7f6d3a7e3780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:47:16.0305 16952/7ffa5252d780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[Tue Apr 17 00:47:16.271457 2018] [mpm_prefork:notice] [pid 16944] AH00169: caught SIGTERM, shutting down
+[ 2018-04-17 00:47:16.4422 24141/7ff192c23780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:47:16.4648 24144/7f41ba957780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:47:16.4649 24144/7f41ba957780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:47:16.4655 24144/7f41ba957780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 24144
+[ 2018-04-17 00:47:16.4806 24149/7f7bb8de8780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:47:16.4810 24149/7f7bb8de8780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 24149
+[Tue Apr 17 00:47:16.481422 2018] [suexec:notice] [pid 24139] AH01232: suEXEC mechanism enabled (wrapper: /usr/lib/apache2/suexec)
+
+[ 2018-04-17 00:47:16.5047 24144/7f41b4132700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:47:16.5048 24144/7f41ba957780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:47:16.5048 24144/7f41b3931700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:47:16.5048 24144/7f41b3931700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:47:16.5048 24144/7f41b4132700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:47:16.5048 24144/7f41b4132700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 00:47:16.5053 24149/7f7bb279e700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:47:16.5053 24149/7f7bb8de8780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:47:16.5053 24149/7f7bb1f9d700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:47:16.5053 24149/7f7bb1f9d700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:47:16.5054 24149/7f7bb279e700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:47:16.5055 24149/7f7bb8de8780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:47:16.5265 24144/7f41ba957780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 00:47:16.5677 24170/7f982ad32780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:47:16.5960 24181/7f1f27bc1780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:47:16.5961 24181/7f1f27bc1780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:47:16.5967 24181/7f1f27bc1780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 24181
+[ 2018-04-17 00:47:16.6288 24190/7f65bb629780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:47:16.6293 24190/7f65bb629780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 24190
+[Tue Apr 17 00:47:16.704404 2018] [:error] [pid 24165] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 00:47:16.704468 2018] [:error] [pid 24165] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 00:47:16.704472 2018] [:error] [pid 24165] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 00:47:16.704487 2018] [:notice] [pid 24165] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Apr 17 00:47:16.704490 2018] [:notice] [pid 24165] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 00:47:16.752128 2018] [mpm_prefork:notice] [pid 24165] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 OpenSSL/1.0.2l configured -- resuming normal operations
+[Tue Apr 17 00:47:16.752151 2018] [core:notice] [pid 24165] AH00094: Command line: '/usr/sbin/apache2'
+
+[ 2018-04-17 00:47:17.2331 24181/7f1f2139c700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2018-04-17 00:47:17.2331 24190/7f65b4fdf700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:47:17.2333 24190/7f65bb629780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:47:17.2333 24190/7f65affff700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:47:17.2333 24190/7f65affff700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:47:17.2333 24181/7f1f27bc1780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:47:17.2334 24181/7f1f20b9b700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:47:17.2334 24181/7f1f20b9b700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:47:17.2334 24190/7f65b4fdf700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:47:17.2337 24181/7f1f2139c700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:47:17.2337 24181/7f1f2139c700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2018-04-17 00:47:17.2342 24190/7f65bb629780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:47:17.2509 24181/7f1f27bc1780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[Tue Apr 17 00:47:17.495326 2018] [mpm_prefork:notice] [pid 24165] AH00169: caught SIGTERM, shutting down
+[ 2018-04-17 00:47:17.6764 24272/7f13c1e5e780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:47:17.7009 24275/7facb7a3c780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:47:17.7010 24275/7facb7a3c780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:47:17.7019 24275/7facb7a3c780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 24275
+[ 2018-04-17 00:47:17.7174 24280/7fa83326f780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:47:17.7179 24280/7fa83326f780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 24280
+[Tue Apr 17 00:47:17.718411 2018] [suexec:notice] [pid 24270] AH01232: suEXEC mechanism enabled (wrapper: /usr/lib/apache2/suexec)
+
+[ 2018-04-17 00:47:17.7248 24275/7facb1217700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:47:17.7248 24275/7facb7a3c780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:47:17.7249 24275/7facb0a16700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:47:17.7249 24275/7facb0a16700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:47:17.7249 24275/7facb1217700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:47:17.7249 24275/7facb1217700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 00:47:17.7254 24280/7fa82cc25700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:47:17.7254 24280/7fa83326f780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:47:17.7254 24280/7fa82cc25700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:47:17.7255 24280/7fa827fff700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:47:17.7255 24280/7fa827fff700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:47:17.7256 24280/7fa83326f780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:47:17.7458 24275/7facb7a3c780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 00:47:17.8018 24309/7fb382c9f780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:47:17.8181 24316/7ff22a398780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:47:17.8182 24316/7ff22a398780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:47:17.8188 24316/7ff22a398780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 24316
+[ 2018-04-17 00:47:17.8450 24323/7fd70469c780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:47:17.8454 24323/7fd70469c780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 24323
+[Tue Apr 17 00:47:17.898568 2018] [:error] [pid 24296] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 00:47:17.898640 2018] [:error] [pid 24296] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 00:47:17.898644 2018] [:error] [pid 24296] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 00:47:17.898658 2018] [:notice] [pid 24296] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Apr 17 00:47:17.898661 2018] [:notice] [pid 24296] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 00:47:17.928355 2018] [mpm_prefork:notice] [pid 24296] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 OpenSSL/1.0.2l configured -- resuming normal operations
+[Tue Apr 17 00:47:17.928376 2018] [core:notice] [pid 24296] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 17 00:47:23.497026 2018] [mpm_prefork:notice] [pid 24296] AH00171: Graceful restart requested, doing restart
+
+[ 2018-04-17 00:47:23.5427 24316/7ff223b73700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:47:23.5427 24316/7ff22a398780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:47:23.5428 24316/7ff223372700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:47:23.5428 24316/7ff223372700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:47:23.5428 24316/7ff223b73700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:47:23.5428 24316/7ff223b73700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 00:47:23.5433 24323/7fd6fe052700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:47:23.5433 24323/7fd70469c780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:47:23.5433 24323/7fd6fd851700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:47:23.5433 24323/7fd6fd851700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:47:23.5434 24323/7fd6fe052700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:47:23.5435 24323/7fd70469c780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:47:23.5634 24316/7ff22a398780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 00:47:23.6447 25254/7fd7dfee8780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:47:23.6578 25257/7fd842eeb780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:47:23.6579 25257/7fd842eeb780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:47:23.6585 25257/7fd842eeb780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 25257
+[ 2018-04-17 00:47:23.6678 25262/7fc44aabd780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:47:23.6682 25262/7fc44aabd780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 25262
+[Tue Apr 17 00:47:23.698241 2018] [:error] [pid 24296] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 00:47:23.698311 2018] [:error] [pid 24296] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 00:47:23.698315 2018] [:error] [pid 24296] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 00:47:23.698323 2018] [:notice] [pid 24296] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Apr 17 00:47:23.698330 2018] [:notice] [pid 24296] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 00:47:23.706926 2018] [mpm_prefork:notice] [pid 24296] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 OpenSSL/1.0.2l configured -- resuming normal operations
+[Tue Apr 17 00:47:23.706943 2018] [core:notice] [pid 24296] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 17 00:47:23.706961 2018] [mpm_prefork:warn] [pid 24296] AH00167: long lost child came home! (pid 24305)
+
+[ 2018-04-17 00:57:02.9410 25257/7fd83c6c6700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2018-04-17 00:57:02.9410 25262/7fc444473700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:57:02.9412 25257/7fd842eeb780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:57:02.9412 25257/7fd83bec5700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:57:02.9412 25257/7fd83bec5700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:57:02.9413 25262/7fc44aabd780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:57:02.9413 25262/7fc443c72700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:57:02.9413 25262/7fc443c72700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:57:02.9414 25262/7fc444473700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:57:02.9416 25257/7fd83c6c6700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:57:02.9416 25257/7fd83c6c6700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2018-04-17 00:57:02.9420 25262/7fc44aabd780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:57:02.9635 25257/7fd842eeb780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[Tue Apr 17 00:57:03.173949 2018] [mpm_prefork:notice] [pid 24296] AH00169: caught SIGTERM, shutting down
+[ 2018-04-17 00:57:03.3448 27379/7f2837395780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:57:03.3609 27382/7f0eb6ead780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:57:03.3610 27382/7f0eb6ead780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:57:03.3618 27382/7f0eb6ead780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 27382
+[ 2018-04-17 00:57:03.3737 27387/7f0ffb2a6780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:57:03.3743 27387/7f0ffb2a6780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 27387
+[Tue Apr 17 00:57:03.374745 2018] [suexec:notice] [pid 27377] AH01232: suEXEC mechanism enabled (wrapper: /usr/lib/apache2/suexec)
+
+[ 2018-04-17 00:57:03.3807 27382/7f0eb0688700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:57:03.3807 27382/7f0eb6ead780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:57:03.3808 27382/7f0eafe87700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:57:03.3808 27382/7f0eafe87700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:57:03.3808 27382/7f0eb0688700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:57:03.3808 27382/7f0eb0688700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 00:57:03.3813 27387/7f0ff4c5c700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:57:03.3813 27387/7f0ffb2a6780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:57:03.3813 27387/7f0ff4c5c700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:57:03.3813 27387/7f0feffff700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:57:03.3813 27387/7f0feffff700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:57:03.3815 27387/7f0ffb2a6780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:57:03.4014 27382/7f0eb6ead780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 00:57:03.4230 27406/7f3a0e2c4780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:57:03.4381 27411/7f4fefeac780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:57:03.4382 27411/7f4fefeac780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:57:03.4389 27411/7f4fefeac780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 27411
+[ 2018-04-17 00:57:03.4507 27418/7f8f7702d780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:57:03.4511 27418/7f8f7702d780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 27418
+[Tue Apr 17 00:57:03.482497 2018] [:error] [pid 27403] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 00:57:03.482572 2018] [:error] [pid 27403] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 00:57:03.482576 2018] [:error] [pid 27403] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 00:57:03.482593 2018] [:notice] [pid 27403] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Apr 17 00:57:03.482612 2018] [:notice] [pid 27403] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 00:57:03.495048 2018] [mpm_prefork:notice] [pid 27403] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 OpenSSL/1.0.2l configured -- resuming normal operations
+[Tue Apr 17 00:57:03.495070 2018] [core:notice] [pid 27403] AH00094: Command line: '/usr/sbin/apache2'
+
+[ 2018-04-17 00:57:08.2169 27411/7f4fe9687700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2018-04-17 00:57:08.2170 27418/7f8f709e3700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:57:08.2171 27418/7f8f7702d780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:57:08.2172 27418/7f8f6bfff700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:57:08.2172 27418/7f8f6bfff700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:57:08.2172 27411/7f4fefeac780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:57:08.2172 27411/7f4fe8e86700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:57:08.2173 27411/7f4fe8e86700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:57:08.2174 27418/7f8f709e3700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:57:08.2175 27411/7f4fe9687700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:57:08.2175 27411/7f4fe9687700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2018-04-17 00:57:08.2179 27418/7f8f7702d780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:57:08.2306 27411/7f4fefeac780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[Tue Apr 17 00:57:08.473145 2018] [mpm_prefork:notice] [pid 27403] AH00169: caught SIGTERM, shutting down
+[ 2018-04-17 00:57:08.6532 27493/7fdde3ae4780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:57:08.6722 27496/7f37c8c00780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:57:08.6723 27496/7f37c8c00780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:57:08.6773 27496/7f37c8c00780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 27496
+[ 2018-04-17 00:57:08.6916 27501/7f7507f83780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:57:08.6922 27501/7f7507f83780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 27501
+[Tue Apr 17 00:57:08.692765 2018] [suexec:notice] [pid 27491] AH01232: suEXEC mechanism enabled (wrapper: /usr/lib/apache2/suexec)
+
+[ 2018-04-17 00:57:08.7008 27496/7f37c23db700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:57:08.7008 27496/7f37c8c00780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:57:08.7009 27496/7f37c1bda700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:57:08.7009 27496/7f37c1bda700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:57:08.7009 27496/7f37c23db700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:57:08.7009 27496/7f37c23db700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 00:57:08.7014 27501/7f7501939700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:57:08.7014 27501/7f7507f83780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:57:08.7015 27501/7f7501939700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:57:08.7015 27501/7f7501138700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:57:08.7015 27501/7f7501138700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:57:08.7017 27501/7f7507f83780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:57:08.7216 27496/7f37c8c00780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 00:57:08.7451 27520/7f90920aa780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:57:08.7621 27527/7fa2f774d780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:57:08.7622 27527/7fa2f774d780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:57:08.7629 27527/7fa2f774d780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 27527
+[ 2018-04-17 00:57:08.7743 27532/7faf2770b780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:57:08.7748 27532/7faf2770b780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 27532
+[Tue Apr 17 00:57:08.805996 2018] [:error] [pid 27517] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 00:57:08.806068 2018] [:error] [pid 27517] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 00:57:08.806072 2018] [:error] [pid 27517] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 00:57:08.806089 2018] [:notice] [pid 27517] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Apr 17 00:57:08.806104 2018] [:notice] [pid 27517] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 00:57:08.818422 2018] [mpm_prefork:notice] [pid 27517] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 OpenSSL/1.0.2l configured -- resuming normal operations
+[Tue Apr 17 00:57:08.818443 2018] [core:notice] [pid 27517] AH00094: Command line: '/usr/sbin/apache2'
+
+[ 2018-04-17 00:59:02.4369 27527/7fa2f0f28700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2018-04-17 00:59:02.4370 27532/7faf210c1700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:59:02.4371 27527/7fa2f774d780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:59:02.4372 27527/7fa2ebfff700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:59:02.4372 27527/7fa2ebfff700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:59:02.4372 27532/7faf2770b780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:59:02.4373 27532/7faf208c0700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:59:02.4373 27532/7faf208c0700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:59:02.4374 27532/7faf210c1700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:59:02.4375 27527/7fa2f0f28700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:59:02.4375 27527/7fa2f0f28700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2018-04-17 00:59:02.4379 27532/7faf2770b780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:59:02.4594 27527/7fa2f774d780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[Tue Apr 17 00:59:02.687810 2018] [mpm_prefork:notice] [pid 27517] AH00169: caught SIGTERM, shutting down
+[ 2018-04-17 00:59:02.8568 27665/7f30772e5780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:59:02.8769 27668/7fc8f80ae780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:59:02.8770 27668/7fc8f80ae780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:59:02.8778 27668/7fc8f80ae780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 27668
+[ 2018-04-17 00:59:02.8921 27673/7f22d42ca780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:59:02.8926 27673/7f22d42ca780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 27673
+[Tue Apr 17 00:59:02.893131 2018] [suexec:notice] [pid 27663] AH01232: suEXEC mechanism enabled (wrapper: /usr/lib/apache2/suexec)
+
+[ 2018-04-17 00:59:02.9008 27668/7fc8f1889700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:59:02.9008 27668/7fc8f80ae780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:59:02.9009 27668/7fc8f1088700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:59:02.9009 27668/7fc8f1088700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 00:59:02.9009 27668/7fc8f1889700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 00:59:02.9009 27668/7fc8f1889700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 00:59:02.9014 27673/7f22cdc80700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 00:59:02.9014 27673/7f22d42ca780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 00:59:02.9014 27673/7f22cdc80700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 00:59:02.9014 27673/7f22cd47f700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 00:59:02.9015 27673/7f22cd47f700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 00:59:02.9016 27673/7f22d42ca780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 00:59:02.9216 27668/7fc8f80ae780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 00:59:02.9459 27692/7f69c92b8780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 00:59:02.9623 27698/7faa37a92780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 00:59:02.9624 27698/7faa37a92780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 00:59:02.9630 27698/7faa37a92780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 27698
+[ 2018-04-17 00:59:02.9725 27704/7f089ef61780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 00:59:02.9730 27704/7f089ef61780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 27704
+[Tue Apr 17 00:59:03.004015 2018] [:error] [pid 27689] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 00:59:03.004125 2018] [:error] [pid 27689] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 00:59:03.004130 2018] [:error] [pid 27689] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 00:59:03.004145 2018] [:notice] [pid 27689] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Apr 17 00:59:03.004148 2018] [:notice] [pid 27689] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 00:59:03.015648 2018] [mpm_prefork:notice] [pid 27689] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 OpenSSL/1.0.2l configured -- resuming normal operations
+[Tue Apr 17 00:59:03.015667 2018] [core:notice] [pid 27689] AH00094: Command line: '/usr/sbin/apache2'
+
+[ 2018-04-17 01:00:02.4569 27698/7faa3126d700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2018-04-17 01:00:02.4570 27704/7f0898917700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 01:00:02.4571 27704/7f089ef61780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 01:00:02.4571 27704/7f0893fff700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 01:00:02.4572 27704/7f0893fff700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 01:00:02.4572 27698/7faa37a92780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 01:00:02.4572 27698/7faa30a6c700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 01:00:02.4572 27698/7faa30a6c700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 01:00:02.4573 27704/7f0898917700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 01:00:02.4575 27704/7f089ef61780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 01:00:02.4583 27698/7faa3126d700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 01:00:02.4583 27698/7faa3126d700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2018-04-17 01:00:02.4792 27698/7faa37a92780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[Tue Apr 17 01:00:02.707615 2018] [mpm_prefork:notice] [pid 27689] AH00169: caught SIGTERM, shutting down
+[ 2018-04-17 01:00:02.8729 27835/7f6d9d92c780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 01:00:02.8876 27838/7f11ce548780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 01:00:02.8877 27838/7f11ce548780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 01:00:02.8884 27838/7f11ce548780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 27838
+[ 2018-04-17 01:00:02.9047 27843/7ff7fee2a780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 01:00:02.9052 27843/7ff7fee2a780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 27843
+[Tue Apr 17 01:00:02.905632 2018] [suexec:notice] [pid 27833] AH01232: suEXEC mechanism enabled (wrapper: /usr/lib/apache2/suexec)
+
+[ 2018-04-17 01:00:02.9128 27838/7f11c7d23700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 01:00:02.9128 27838/7f11ce548780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 01:00:02.9128 27838/7f11c7522700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 01:00:02.9128 27838/7f11c7522700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 01:00:02.9129 27838/7f11c7d23700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 01:00:02.9129 27838/7f11c7d23700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 01:00:02.9133 27843/7ff7f87e0700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 01:00:02.9133 27843/7ff7fee2a780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 01:00:02.9133 27843/7ff7f87e0700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 01:00:02.9133 27843/7ff7f7fdf700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 01:00:02.9133 27843/7ff7f7fdf700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 01:00:02.9135 27843/7ff7fee2a780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 01:00:02.9335 27838/7f11ce548780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 01:00:02.9490 27862/7fc2f3536780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 01:00:02.9655 27867/7fcaff2b0780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 01:00:02.9655 27867/7fcaff2b0780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 01:00:02.9662 27867/7fcaff2b0780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 27867
+[ 2018-04-17 01:00:02.9788 27874/7fd520751780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 01:00:02.9792 27874/7fd520751780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 27874
+[Tue Apr 17 01:00:03.008367 2018] [:error] [pid 27859] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 01:00:03.008441 2018] [:error] [pid 27859] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 01:00:03.008445 2018] [:error] [pid 27859] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 01:00:03.008460 2018] [:notice] [pid 27859] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Apr 17 01:00:03.008463 2018] [:notice] [pid 27859] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 01:00:03.019645 2018] [mpm_prefork:notice] [pid 27859] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 OpenSSL/1.0.2l configured -- resuming normal operations
+[Tue Apr 17 01:00:03.019663 2018] [core:notice] [pid 27859] AH00094: Command line: '/usr/sbin/apache2'
+
+[ 2018-04-17 01:01:02.4110 27867/7fcaf8a8b700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2018-04-17 01:01:02.4111 27874/7fd51a107700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 01:01:02.4112 27874/7fd520751780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 01:01:02.4113 27874/7fd519906700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 01:01:02.4113 27874/7fd519906700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 01:01:02.4113 27867/7fcaff2b0780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 01:01:02.4114 27867/7fcaf3fff700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 01:01:02.4114 27867/7fcaf3fff700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 01:01:02.4115 27874/7fd51a107700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 01:01:02.4116 27867/7fcaf8a8b700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 01:01:02.4117 27867/7fcaf8a8b700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2018-04-17 01:01:02.4119 27874/7fd520751780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 01:01:02.4338 27867/7fcaff2b0780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[Tue Apr 17 01:01:02.653230 2018] [mpm_prefork:notice] [pid 27859] AH00169: caught SIGTERM, shutting down
+[ 2018-04-17 01:01:02.8368 28211/7f801759a780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 01:01:02.8570 28214/7f2948108780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 01:01:02.8571 28214/7f2948108780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 01:01:02.8580 28214/7f2948108780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 28214
+[ 2018-04-17 01:01:02.8726 28219/7fb246130780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 01:01:02.8732 28219/7fb246130780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 28219
+[Tue Apr 17 01:01:02.873728 2018] [suexec:notice] [pid 28209] AH01232: suEXEC mechanism enabled (wrapper: /usr/lib/apache2/suexec)
+
+[ 2018-04-17 01:01:02.8808 28214/7f29418e3700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 01:01:02.8808 28214/7f2948108780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 01:01:02.8808 28214/7f29410e2700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 01:01:02.8809 28214/7f29410e2700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 01:01:02.8809 28214/7f29418e3700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 01:01:02.8809 28214/7f29418e3700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 01:01:02.8814 28219/7fb23fae6700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 01:01:02.8814 28219/7fb246130780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 01:01:02.8814 28219/7fb23fae6700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 01:01:02.8814 28219/7fb23f2e5700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 01:01:02.8814 28219/7fb23f2e5700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 01:01:02.8816 28219/7fb246130780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 01:01:02.9015 28214/7f2948108780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 01:01:02.9308 28238/7f82448f9780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 01:01:02.9449 28245/7f157d1c3780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 01:01:02.9450 28245/7f157d1c3780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 01:01:02.9456 28245/7f157d1c3780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 28245
+[ 2018-04-17 01:01:02.9560 28250/7f1a3578f780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 01:01:02.9564 28250/7f1a3578f780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 28250
+[Tue Apr 17 01:01:02.988968 2018] [:error] [pid 28235] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 01:01:02.989037 2018] [:error] [pid 28235] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 01:01:02.989041 2018] [:error] [pid 28235] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 01:01:02.989057 2018] [:notice] [pid 28235] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Apr 17 01:01:02.989061 2018] [:notice] [pid 28235] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 01:01:03.001356 2018] [mpm_prefork:notice] [pid 28235] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 OpenSSL/1.0.2l configured -- resuming normal operations
+[Tue Apr 17 01:01:03.001408 2018] [core:notice] [pid 28235] AH00094: Command line: '/usr/sbin/apache2'
+
+[ 2018-04-17 01:02:02.3289 28245/7f157699e700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2018-04-17 01:02:02.3290 28250/7f1a2f145700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 01:02:02.3292 28250/7f1a3578f780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 01:02:02.3292 28250/7f1a2e944700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 01:02:02.3292 28250/7f1a2e944700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 01:02:02.3293 28245/7f157d1c3780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 01:02:02.3293 28245/7f157619d700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 01:02:02.3293 28245/7f157619d700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 01:02:02.3295 28250/7f1a2f145700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 01:02:02.3296 28245/7f157699e700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 01:02:02.3296 28245/7f157699e700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2018-04-17 01:02:02.3299 28250/7f1a3578f780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 01:02:02.3514 28245/7f157d1c3780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[Tue Apr 17 01:02:02.587847 2018] [mpm_prefork:notice] [pid 28235] AH00169: caught SIGTERM, shutting down
+[ 2018-04-17 01:02:02.7440 28346/7f29f27fb780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 01:02:02.7609 28349/7f7fc0dd6780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 01:02:02.7610 28349/7f7fc0dd6780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 01:02:02.7618 28349/7f7fc0dd6780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 28349
+[ 2018-04-17 01:02:02.7775 28354/7f7451c25780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 01:02:02.7780 28354/7f7451c25780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 28354
+[Tue Apr 17 01:02:02.778510 2018] [suexec:notice] [pid 28344] AH01232: suEXEC mechanism enabled (wrapper: /usr/lib/apache2/suexec)
+
+[ 2018-04-17 01:02:02.7848 28349/7f7fba5b1700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 01:02:02.7848 28349/7f7fc0dd6780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 01:02:02.7848 28349/7f7fb9db0700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 01:02:02.7848 28349/7f7fb9db0700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 01:02:02.7849 28349/7f7fba5b1700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 01:02:02.7849 28349/7f7fba5b1700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 01:02:02.7853 28354/7f744b5db700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 01:02:02.7853 28354/7f7451c25780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 01:02:02.7853 28354/7f744b5db700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 01:02:02.7854 28354/7f744adda700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 01:02:02.7854 28354/7f744adda700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 01:02:02.7855 28354/7f7451c25780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 01:02:02.8055 28349/7f7fc0dd6780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 01:02:02.8248 28373/7f22e80de780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 01:02:02.8395 28378/7fde77498780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 01:02:02.8396 28378/7fde77498780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 01:02:02.8403 28378/7fde77498780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 28378
+[ 2018-04-17 01:02:02.8535 28385/7f07d1b57780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 01:02:02.8540 28385/7f07d1b57780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 28385
+[Tue Apr 17 01:02:02.886726 2018] [:error] [pid 28370] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 01:02:02.886803 2018] [:error] [pid 28370] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 01:02:02.886808 2018] [:error] [pid 28370] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 01:02:02.886823 2018] [:notice] [pid 28370] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Apr 17 01:02:02.886827 2018] [:notice] [pid 28370] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 01:02:02.898711 2018] [mpm_prefork:notice] [pid 28370] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 OpenSSL/1.0.2l configured -- resuming normal operations
+[Tue Apr 17 01:02:02.898736 2018] [core:notice] [pid 28370] AH00094: Command line: '/usr/sbin/apache2'
+
+[ 2018-04-17 01:04:06.6450 28378/7fde70c73700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2018-04-17 01:04:06.6451 28385/7f07cb50d700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 01:04:06.6453 28385/7f07d1b57780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 01:04:06.6454 28385/7f07cad0c700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 01:04:06.6454 28385/7f07cad0c700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 01:04:06.6454 28378/7fde77498780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 01:04:06.6454 28378/7fde63fff700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 01:04:06.6455 28378/7fde63fff700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 01:04:06.6456 28385/7f07cb50d700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 01:04:06.6458 28378/7fde70c73700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 01:04:06.6458 28378/7fde70c73700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2018-04-17 01:04:06.6463 28385/7f07d1b57780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 01:04:06.6649 28378/7fde77498780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[Tue Apr 17 01:04:06.900735 2018] [mpm_prefork:notice] [pid 28370] AH00169: caught SIGTERM, shutting down
+[ 2018-04-17 01:04:07.0769 28516/7fa1b0a81780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 01:04:07.0969 28519/7fb4fbd31780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 01:04:07.0970 28519/7fb4fbd31780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 01:04:07.0979 28519/7fb4fbd31780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 28519
+[ 2018-04-17 01:04:07.1152 28524/7f45e81ce780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 01:04:07.1158 28524/7f45e81ce780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 28524
+[Tue Apr 17 01:04:07.117100 2018] [suexec:notice] [pid 28514] AH01232: suEXEC mechanism enabled (wrapper: /usr/lib/apache2/suexec)
+
+[ 2018-04-17 01:04:07.1238 28519/7fb4f550c700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 01:04:07.1238 28519/7fb4fbd31780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 01:04:07.1239 28519/7fb4f4d0b700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 01:04:07.1239 28519/7fb4f4d0b700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 01:04:07.1240 28519/7fb4f550c700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 01:04:07.1240 28519/7fb4f550c700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 01:04:07.1244 28524/7f45e1b84700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 01:04:07.1245 28524/7f45e81ce780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 01:04:07.1245 28524/7f45e1b84700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 01:04:07.1245 28524/7f45e1383700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 01:04:07.1245 28524/7f45e1383700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 01:04:07.1247 28524/7f45e81ce780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 01:04:07.1459 28519/7fb4fbd31780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 01:04:07.1907 28546/7f6635830780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 01:04:07.2129 28553/7fb6bf3ec780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 01:04:07.2129 28553/7fb6bf3ec780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 01:04:07.2136 28553/7fb6bf3ec780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 28553
+[ 2018-04-17 01:04:07.2306 28558/7fea7447e780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 01:04:07.2310 28558/7fea7447e780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 28558
+[Tue Apr 17 01:04:07.277057 2018] [:error] [pid 28540] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 01:04:07.277129 2018] [:error] [pid 28540] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 01:04:07.277133 2018] [:error] [pid 28540] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 01:04:07.277154 2018] [:notice] [pid 28540] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Apr 17 01:04:07.277158 2018] [:notice] [pid 28540] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 01:04:07.289509 2018] [mpm_prefork:notice] [pid 28540] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 OpenSSL/1.0.2l configured -- resuming normal operations
+[Tue Apr 17 01:04:07.289530 2018] [core:notice] [pid 28540] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 17 04:45:42.763314 2018] [cgi:error] [pid 28887] [client 167.99.184.200:56728] AH02811: script not found or unable to stat: /usr/lib/cgi-bin/index.cgi
+[Tue Apr 17 06:53:21.482989 2018] [cgi:error] [pid 28576] [client 52.60.121.82:53040] AH02811: script not found or unable to stat: /usr/lib/cgi-bin/index.cgi
+[Tue Apr 17 06:54:24.397192 2018] [cgi:error] [pid 28575] [client 212.193.82.109:45696] AH02811: script not found or unable to stat: /usr/lib/cgi-bin/index.cgi
+[Tue Apr 17 06:54:40.574634 2018] [cgi:error] [pid 28573] [client 87.224.66.80:54442] AH02811: script not found or unable to stat: /usr/lib/cgi-bin/index.cgi
+
+[ 2018-04-17 09:24:04.6413 28553/7fb6b8bc7700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2018-04-17 09:24:04.6414 28558/7fea6de34700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 09:24:04.6415 28558/7fea7447e780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 09:24:04.6416 28558/7fea6d633700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 09:24:04.6416 28558/7fea6d633700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 09:24:04.6416 28553/7fb6bf3ec780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 09:24:04.6417 28553/7fb6b3fff700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 09:24:04.6417 28553/7fb6b3fff700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 09:24:04.6418 28558/7fea6de34700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 09:24:04.6419 28553/7fb6b8bc7700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 09:24:04.6420 28553/7fb6b8bc7700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2018-04-17 09:24:04.6423 28558/7fea7447e780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 09:24:04.6640 28553/7fb6bf3ec780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[Tue Apr 17 09:24:04.903708 2018] [mpm_prefork:notice] [pid 28540] AH00169: caught SIGTERM, shutting down
+[ 2018-04-17 09:24:05.2295 22311/7f0fa1447780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 09:24:05.2373 22314/7f1881ef0780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 09:24:05.2374 22314/7f1881ef0780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 09:24:05.2382 22314/7f1881ef0780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 22314
+[ 2018-04-17 09:24:05.2468 22319/7fd17dd90780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 09:24:05.2473 22319/7fd17dd90780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 22319
+[Tue Apr 17 09:24:05.247773 2018] [suexec:notice] [pid 22309] AH01232: suEXEC mechanism enabled (wrapper: /usr/lib/apache2/suexec)
+
+[ 2018-04-17 09:24:05.2567 22314/7f187b6cb700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 09:24:05.2568 22314/7f1881ef0780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 09:24:05.2568 22314/7f187aeca700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 09:24:05.2568 22314/7f187aeca700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 09:24:05.2569 22314/7f187b6cb700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 09:24:05.2569 22314/7f187b6cb700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 09:24:05.2573 22319/7fd177746700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 09:24:05.2573 22319/7fd17dd90780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 09:24:05.2573 22319/7fd177746700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 09:24:05.2573 22319/7fd176f45700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 09:24:05.2573 22319/7fd176f45700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 09:24:05.2575 22319/7fd17dd90780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 09:24:05.2774 22314/7f1881ef0780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 09:24:05.2931 22338/7f7b30b48780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 09:24:05.3129 22343/7f19dc688780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 09:24:05.3129 22343/7f19dc688780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 09:24:05.3136 22343/7f19dc688780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 22343
+[ 2018-04-17 09:24:05.3223 22350/7f852572a780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 09:24:05.3227 22350/7f852572a780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 22350
+[Tue Apr 17 09:24:05.353838 2018] [:error] [pid 22335] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 09:24:05.353901 2018] [:error] [pid 22335] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 09:24:05.353904 2018] [:error] [pid 22335] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 09:24:05.353925 2018] [:notice] [pid 22335] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Apr 17 09:24:05.353930 2018] [:notice] [pid 22335] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 09:24:05.365790 2018] [mpm_prefork:notice] [pid 22335] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 OpenSSL/1.0.2l configured -- resuming normal operations
+[Tue Apr 17 09:24:05.365815 2018] [core:notice] [pid 22335] AH00094: Command line: '/usr/sbin/apache2'
+
+[ 2018-04-17 09:25:15.6450 22343/7f19d5e63700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2018-04-17 09:25:15.6450 22350/7f851f0e0700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 09:25:15.6452 22350/7f852572a780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 09:25:15.6452 22350/7f851e8df700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 09:25:15.6452 22350/7f851e8df700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 09:25:15.6452 22343/7f19dc688780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 09:25:15.6453 22343/7f19d5662700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 09:25:15.6453 22343/7f19d5662700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 09:25:15.6455 22350/7f851f0e0700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 09:25:15.6456 22343/7f19d5e63700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 09:25:15.6456 22343/7f19d5e63700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2018-04-17 09:25:15.6460 22350/7f852572a780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 09:25:15.6659 22343/7f19dc688780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[Tue Apr 17 09:25:15.902061 2018] [mpm_prefork:notice] [pid 22335] AH00169: caught SIGTERM, shutting down
+[ 2018-04-17 09:25:16.0814 22490/7f9995a62780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 09:25:16.1049 22493/7fa0e3a7b780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 09:25:16.1050 22493/7fa0e3a7b780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 09:25:16.1058 22493/7fa0e3a7b780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 22493
+[ 2018-04-17 09:25:16.1171 22498/7f5fffc99780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 09:25:16.1175 22498/7f5fffc99780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 22498
+[Tue Apr 17 09:25:16.117999 2018] [suexec:notice] [pid 22488] AH01232: suEXEC mechanism enabled (wrapper: /usr/lib/apache2/suexec)
+
+[ 2018-04-17 09:25:16.1248 22493/7fa0dd256700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 09:25:16.1248 22493/7fa0e3a7b780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 09:25:16.1249 22493/7fa0dca55700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 09:25:16.1249 22493/7fa0dca55700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 09:25:16.1250 22493/7fa0dd256700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 09:25:16.1250 22493/7fa0dd256700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 09:25:16.1254 22498/7f5ff964f700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 09:25:16.1254 22498/7f5fffc99780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 09:25:16.1254 22498/7f5ff964f700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 09:25:16.1255 22498/7f5ff8e4e700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 09:25:16.1255 22498/7f5ff8e4e700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 09:25:16.1256 22498/7f5fffc99780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 09:25:16.1456 22493/7fa0e3a7b780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 09:25:16.1676 22517/7f04128b1780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 09:25:16.1849 22523/7fef66902780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 09:25:16.1849 22523/7fef66902780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 09:25:16.1856 22523/7fef66902780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 22523
+[ 2018-04-17 09:25:16.1932 22529/7f17e4c35780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 09:25:16.1936 22529/7f17e4c35780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 22529
+[Tue Apr 17 09:25:16.225977 2018] [:error] [pid 22514] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 09:25:16.226056 2018] [:error] [pid 22514] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 09:25:16.226061 2018] [:error] [pid 22514] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 09:25:16.226078 2018] [:notice] [pid 22514] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Apr 17 09:25:16.226081 2018] [:notice] [pid 22514] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 09:25:16.238278 2018] [mpm_prefork:notice] [pid 22514] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 OpenSSL/1.0.2l configured -- resuming normal operations
+[Tue Apr 17 09:25:16.238299 2018] [core:notice] [pid 22514] AH00094: Command line: '/usr/sbin/apache2'
+
+[ 2018-04-17 09:25:37.2330 22523/7fef600dd700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2018-04-17 09:25:37.2331 22529/7f17de5eb700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 09:25:37.2332 22529/7f17e4c35780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 09:25:37.2333 22529/7f17dddea700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 09:25:37.2333 22529/7f17dddea700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 09:25:37.2333 22523/7fef66902780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 09:25:37.2333 22523/7fef5f8dc700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 09:25:37.2334 22523/7fef5f8dc700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 09:25:37.2335 22529/7f17de5eb700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 09:25:37.2336 22523/7fef600dd700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 09:25:37.2336 22523/7fef600dd700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2018-04-17 09:25:37.2340 22529/7f17e4c35780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 09:25:37.2466 22523/7fef66902780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[Tue Apr 17 09:25:37.488152 2018] [mpm_prefork:notice] [pid 22514] AH00169: caught SIGTERM, shutting down
+[ 2018-04-17 09:25:37.6408 22585/7f8edb78d780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 09:25:37.6580 22588/7f8a5c12d780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 09:25:37.6581 22588/7f8a5c12d780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 09:25:37.6588 22588/7f8a5c12d780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 22588
+[ 2018-04-17 09:25:37.6728 22593/7fbb7d20e780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 09:25:37.6733 22593/7fbb7d20e780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 22593
+[Tue Apr 17 09:25:37.673753 2018] [suexec:notice] [pid 22583] AH01232: suEXEC mechanism enabled (wrapper: /usr/lib/apache2/suexec)
+
+[ 2018-04-17 09:25:37.6927 22588/7f8a55908700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 09:25:37.6928 22588/7f8a5c12d780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 09:25:37.6928 22588/7f8a55107700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 09:25:37.6928 22588/7f8a55107700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 09:25:37.6929 22588/7f8a55908700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 09:25:37.6929 22588/7f8a55908700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 09:25:37.6933 22593/7fbb76bc4700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 09:25:37.6933 22593/7fbb7d20e780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 09:25:37.6934 22593/7fbb763c3700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 09:25:37.6934 22593/7fbb763c3700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 09:25:37.6935 22593/7fbb76bc4700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 09:25:37.6935 22593/7fbb7d20e780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 09:25:37.7138 22588/7f8a5c12d780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 09:25:37.7311 22612/7f35ea2f6780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 09:25:37.7481 22617/7ff3c3369780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 09:25:37.7482 22617/7ff3c3369780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 09:25:37.7489 22617/7ff3c3369780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 22617
+[ 2018-04-17 09:25:37.7595 22624/7f868189f780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 09:25:37.7599 22624/7f868189f780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 22624
+[Tue Apr 17 09:25:37.791244 2018] [:error] [pid 22609] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 09:25:37.791309 2018] [:error] [pid 22609] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 09:25:37.791312 2018] [:error] [pid 22609] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 09:25:37.791336 2018] [:notice] [pid 22609] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Apr 17 09:25:37.791339 2018] [:notice] [pid 22609] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 09:25:37.803249 2018] [mpm_prefork:notice] [pid 22609] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 OpenSSL/1.0.2l configured -- resuming normal operations
+[Tue Apr 17 09:25:37.803272 2018] [core:notice] [pid 22609] AH00094: Command line: '/usr/sbin/apache2'
+
+[ 2018-04-17 09:27:30.9649 22617/7ff3bcb44700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2018-04-17 09:27:30.9650 22624/7f867b255700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 09:27:30.9651 22624/7f868189f780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 09:27:30.9652 22624/7f867aa54700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 09:27:30.9652 22624/7f867aa54700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 09:27:30.9652 22617/7ff3c3369780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 09:27:30.9652 22617/7ff3b7fff700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 09:27:30.9652 22617/7ff3b7fff700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 09:27:30.9653 22624/7f867b255700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 09:27:30.9655 22617/7ff3bcb44700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 09:27:30.9656 22617/7ff3bcb44700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2018-04-17 09:27:30.9658 22624/7f868189f780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 09:27:30.9830 22617/7ff3c3369780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[Tue Apr 17 09:27:31.220659 2018] [mpm_prefork:notice] [pid 22609] AH00169: caught SIGTERM, shutting down
+[ 2018-04-17 09:27:31.3768 23286/7f8a79b0e780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 09:27:31.3929 23289/7faf66916780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 09:27:31.3930 23289/7faf66916780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 09:27:31.3938 23289/7faf66916780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 23289
+[ 2018-04-17 09:27:31.4072 23294/7f9d537bc780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 09:27:31.4077 23294/7f9d537bc780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 23294
+[Tue Apr 17 09:27:31.408131 2018] [suexec:notice] [pid 23284] AH01232: suEXEC mechanism enabled (wrapper: /usr/lib/apache2/suexec)
+
+[ 2018-04-17 09:27:31.4168 23289/7faf600f1700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 09:27:31.4168 23289/7faf66916780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 09:27:31.4168 23289/7faf5f8f0700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 09:27:31.4168 23289/7faf5f8f0700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 09:27:31.4169 23289/7faf600f1700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 09:27:31.4169 23289/7faf600f1700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 09:27:31.4173 23294/7f9d4d172700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 09:27:31.4173 23294/7f9d537bc780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 09:27:31.4173 23294/7f9d4d172700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 09:27:31.4173 23294/7f9d4c971700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 09:27:31.4173 23294/7f9d4c971700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 09:27:31.4175 23294/7f9d537bc780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 09:27:31.4374 23289/7faf66916780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 09:27:31.4527 23313/7f3ce13df780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 09:27:31.4672 23318/7f04a4225780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 09:27:31.4673 23318/7f04a4225780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 09:27:31.4679 23318/7f04a4225780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 23318
+[ 2018-04-17 09:27:31.4794 23325/7f9000bda780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 09:27:31.4798 23325/7f9000bda780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 23325
+[Tue Apr 17 09:27:31.509656 2018] [:error] [pid 23310] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 09:27:31.509722 2018] [:error] [pid 23310] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 09:27:31.509726 2018] [:error] [pid 23310] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 09:27:31.509741 2018] [:notice] [pid 23310] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Apr 17 09:27:31.509744 2018] [:notice] [pid 23310] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 09:27:31.521245 2018] [mpm_prefork:notice] [pid 23310] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 OpenSSL/1.0.2l configured -- resuming normal operations
+[Tue Apr 17 09:27:31.521268 2018] [core:notice] [pid 23310] AH00094: Command line: '/usr/sbin/apache2'
+
+[ 2018-04-17 10:06:50.7106 23318/7f049da00700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2018-04-17 10:06:50.7106 23325/7f8ffa590700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 10:06:50.7108 23325/7f9000bda780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 10:06:50.7109 23325/7f8ff9d8f700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 10:06:50.7109 23325/7f8ff9d8f700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 10:06:50.7109 23318/7f04a4225780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 10:06:50.7109 23318/7f049d1ff700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 10:06:50.7109 23318/7f049d1ff700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 10:06:50.7111 23325/7f8ffa590700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 10:06:50.7112 23318/7f049da00700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 10:06:50.7112 23318/7f049da00700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2018-04-17 10:06:50.7116 23325/7f9000bda780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 10:06:50.7335 23318/7f04a4225780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[Tue Apr 17 10:06:50.952803 2018] [mpm_prefork:notice] [pid 23310] AH00169: caught SIGTERM, shutting down
+[ 2018-04-17 10:06:51.1288 27506/7f7bb7c6a780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 10:06:51.1489 27509/7f80504dd780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 10:06:51.1490 27509/7f80504dd780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 10:06:51.1499 27509/7f80504dd780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 27509
+[ 2018-04-17 10:06:51.1642 27514/7f8a847da780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 10:06:51.1648 27514/7f8a847da780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 27514
+[Tue Apr 17 10:06:51.165305 2018] [suexec:notice] [pid 27504] AH01232: suEXEC mechanism enabled (wrapper: /usr/lib/apache2/suexec)
+
+[ 2018-04-17 10:06:51.1728 27509/7f8049cb8700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 10:06:51.1728 27509/7f80504dd780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 10:06:51.1728 27509/7f80494b7700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 10:06:51.1729 27509/7f80494b7700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 10:06:51.1729 27509/7f8049cb8700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 10:06:51.1729 27509/7f8049cb8700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 10:06:51.1734 27514/7f8a7e190700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 10:06:51.1734 27514/7f8a847da780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 10:06:51.1734 27514/7f8a7e190700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 10:06:51.1734 27514/7f8a7d98f700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 10:06:51.1735 27514/7f8a7d98f700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 10:06:51.1736 27514/7f8a847da780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[Tue Apr 17 10:06:51.177307 2018] [so:warn] [pid 27504] AH01574: module php7_module is already loaded, skipping
+[ 2018-04-17 10:06:51.1940 27509/7f80504dd780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 10:06:51.2168 27533/7f7a26ccd780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 10:06:51.2303 27539/7fd5e850d780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 10:06:51.2304 27539/7fd5e850d780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 10:06:51.2310 27539/7fd5e850d780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 27539
+[ 2018-04-17 10:06:51.2419 27545/7f65391f5780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 10:06:51.2423 27545/7f65391f5780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 27545
+[Tue Apr 17 10:06:51.273698 2018] [:error] [pid 27530] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 10:06:51.273769 2018] [:error] [pid 27530] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 10:06:51.273773 2018] [:error] [pid 27530] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 10:06:51.273790 2018] [:notice] [pid 27530] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Apr 17 10:06:51.273794 2018] [:notice] [pid 27530] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 10:06:51.285664 2018] [mpm_prefork:notice] [pid 27530] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 OpenSSL/1.0.2l configured -- resuming normal operations
+[Tue Apr 17 10:06:51.285695 2018] [core:notice] [pid 27530] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 17 10:41:18.724703 2018] [cgi:error] [pid 29000] [client 13.127.188.160:41006] AH02811: script not found or unable to stat: /usr/lib/cgi-bin/index.cgi
+
+[ 2018-04-17 11:16:22.4076 27539/7fd5e1ce8700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 11:16:22.4076 27539/7fd5e850d780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 11:16:22.4076 27539/7fd5e14e7700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 11:16:22.4077 27539/7fd5e14e7700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 11:16:22.4077 27539/7fd5e1ce8700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 11:16:22.4077 27539/7fd5e1ce8700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 11:16:22.4081 27545/7f6532bab700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 11:16:22.4082 27545/7f65391f5780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 11:16:22.4082 27545/7f65323aa700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 11:16:22.4082 27545/7f65323aa700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 11:16:22.4083 27545/7f6532bab700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 11:16:22.4084 27545/7f65391f5780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 11:16:22.4283 27539/7fd5e850d780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[Tue Apr 17 11:16:23.407577 2018] [mpm_prefork:notice] [pid 27530] AH00169: caught SIGTERM, shutting down
+[ 2018-04-17 11:21:38.2483 1196/7f0189225780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 11:21:38.3216 1306/7f061baca780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 11:21:38.3217 1306/7f061baca780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 11:21:38.3971 1306/7f061baca780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 1306
+[ 2018-04-17 11:21:38.4198 1313/7f8458948780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 11:21:38.5980 1313/7f8458948780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 1313
+[Tue Apr 17 11:21:38.598921 2018] [suexec:notice] [pid 894] AH01232: suEXEC mechanism enabled (wrapper: /usr/lib/apache2/suexec)
+
+[ 2018-04-17 11:21:38.6009 1306/7f06152a5700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 11:21:38.6009 1306/7f061baca780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+
+[ 2018-04-17 11:21:38.6012 1313/7f84522fe700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 11:21:38.6013 1313/7f8458948780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 11:21:38.6013 1313/7f84522fe700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 11:21:38.9078 1313/7f8451afd700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 11:21:38.9079 1313/7f8451afd700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 11:21:38.9084 1313/7f8458948780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 11:21:39.0068 1306/7f06152a5700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 11:21:39.0069 1306/7f06152a5700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[Tue Apr 17 11:21:39.259161 2018] [so:warn] [pid 894] AH01574: module php7_module is already loaded, skipping
+[ 2018-04-17 11:21:39.2774 1306/7f0614aa4700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 11:21:39.2774 1306/7f0614aa4700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 11:21:39.3181 1374/7fc0daaa3780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 11:21:39.3317 1377/7f92d7b43780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 11:21:39.3318 1377/7f92d7b43780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 11:21:39.3325 1377/7f92d7b43780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 1377
+[ 2018-04-17 11:21:39.3416 1382/7f0d865a9780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 11:21:39.3421 1382/7f0d865a9780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 1382
+[ 2018-04-17 11:21:39.4242 1306/7f061baca780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[Tue Apr 17 11:21:40.682549 2018] [:error] [pid 1371] python_init: Python version mismatch, expected '2.7.5+', found '2.7.13'.
+[Tue Apr 17 11:21:41.023947 2018] [:error] [pid 1371] python_init: Python executable found '/usr/bin/python'.
+[Tue Apr 17 11:21:41.024015 2018] [:error] [pid 1371] python_init: Python path being used '/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload'.
+[Tue Apr 17 11:21:41.024065 2018] [:notice] [pid 1371] mod_python: Creating 8 session mutexes based on 150 max processes and 0 max threads.
+[Tue Apr 17 11:21:41.024073 2018] [:notice] [pid 1371] mod_python: using mutex_directory /tmp 
+[Tue Apr 17 11:21:42.387130 2018] [mpm_prefork:notice] [pid 1371] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 mod_python/3.3.1 Python/2.7.13 OpenSSL/1.0.2l configured -- resuming normal operations
+[Tue Apr 17 11:21:42.387195 2018] [core:notice] [pid 1371] AH00094: Command line: '/usr/sbin/apache2'
+
+[ 2018-04-17 11:29:59.2622 1377/7f92d131e700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2018-04-17 11:29:59.2622 1382/7f0d7ff5f700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 11:29:59.2624 1382/7f0d865a9780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 11:29:59.2624 1382/7f0d7f75e700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 11:29:59.2624 1382/7f0d7f75e700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 11:29:59.2624 1377/7f92d7b43780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 11:29:59.2625 1377/7f92d0b1d700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 11:29:59.2625 1377/7f92d0b1d700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 11:29:59.2626 1382/7f0d7ff5f700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 11:29:59.2627 1377/7f92d131e700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 11:29:59.2627 1377/7f92d131e700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2018-04-17 11:29:59.2631 1382/7f0d865a9780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 11:29:59.2818 1377/7f92d7b43780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[Tue Apr 17 11:29:59.516999 2018] [mpm_prefork:notice] [pid 1371] AH00169: caught SIGTERM, shutting down
+[ 2018-04-17 11:29:59.6781 2261/7f0ee23df780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 11:29:59.6928 2264/7f0f3d638780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 11:29:59.6928 2264/7f0f3d638780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 11:29:59.6937 2264/7f0f3d638780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 2264
+[ 2018-04-17 11:29:59.7086 2269/7fe5f451a780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 11:29:59.7091 2269/7fe5f451a780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 2269
+[Tue Apr 17 11:29:59.709588 2018] [suexec:notice] [pid 2259] AH01232: suEXEC mechanism enabled (wrapper: /usr/lib/apache2/suexec)
+[Tue Apr 17 11:29:59.729791 2018] [so:warn] [pid 2259] AH01574: module php7_module is already loaded, skipping
+
+[ 2018-04-17 11:29:59.7300 2264/7f0f36e13700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 11:29:59.7300 2264/7f0f3d638780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 11:29:59.7300 2264/7f0f36612700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 11:29:59.7300 2264/7f0f36612700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 11:29:59.7301 2264/7f0f36e13700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 11:29:59.7301 2264/7f0f36e13700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 11:29:59.7305 2269/7fe5eded0700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 11:29:59.7306 2269/7fe5f451a780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 11:29:59.7306 2269/7fe5ed6cf700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 11:29:59.7306 2269/7fe5ed6cf700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 11:29:59.7307 2269/7fe5eded0700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 11:29:59.7308 2269/7fe5f451a780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 11:29:59.7507 2264/7f0f3d638780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[ 2018-04-17 11:29:59.7700 2291/7f5de8c44780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 11:29:59.7881 2297/7fcfa4b41780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 11:29:59.7881 2297/7fcfa4b41780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 11:29:59.7888 2297/7fcfa4b41780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 2297
+[ 2018-04-17 11:29:59.8106 2303/7f719a38d780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 11:29:59.8110 2303/7f719a38d780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 2303
+[Tue Apr 17 11:29:59.845095 2018] [mpm_prefork:notice] [pid 2285] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 OpenSSL/1.0.2l configured -- resuming normal operations
+[Tue Apr 17 11:29:59.845119 2018] [core:notice] [pid 2285] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 17 15:28:47.711126 2018] [cgi:error] [pid 2318] [client 153.92.208.7:50368] AH02811: script not found or unable to stat: /usr/lib/cgi-bin/index.cgi
+[Tue Apr 17 16:34:34.969893 2018] [mpm_prefork:notice] [pid 2285] AH00171: Graceful restart requested, doing restart
+
+[ 2018-04-17 16:34:35.1115 2297/7fcf9e31c700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 16:34:35.1116 2297/7fcfa4b41780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+
+[ 2018-04-17 16:34:35.1118 2303/7f7193d43700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 16:34:35.1118 2303/7f719a38d780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 16:34:35.1119 2303/7f7193542700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 16:34:35.1119 2303/7f7193542700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 16:34:35.1122 2303/7f7193d43700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 16:34:35.1123 2303/7f719a38d780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 16:34:35.1249 2297/7fcf9db1b700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 16:34:35.1249 2297/7fcf9db1b700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 16:34:35.1251 2297/7fcf9e31c700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 16:34:35.1251 2297/7fcf9e31c700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+[ 2018-04-17 16:34:35.1962 2297/7fcfa4b41780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[Tue Apr 17 16:34:37.425758 2018] [fcgid:emerg] [pid 3827] (22)Invalid argument: [client 90.114.111.147:57914] mod_fcgid: can't lock process table in pid 3827, referer: http://92.222.217.92:8080/index.php
+[Tue Apr 17 16:34:37.464429 2018] [fcgid:emerg] [pid 2319] (22)Invalid argument: [client 90.114.111.147:57853] mod_fcgid: can't lock process table in pid 2319, referer: http://92.222.217.92:8080/index.php
+[Tue Apr 17 16:34:37.830734 2018] [so:warn] [pid 2285] AH01574: module php7_module is already loaded, skipping
+[ 2018-04-17 16:34:39.1403 30272/7f479b536780 age/Wat/WatchdogMain.cpp:1291 ]: Starting Passenger watchdog...
+[ 2018-04-17 16:34:39.1545 30275/7f64b6147780 age/Cor/CoreMain.cpp:982 ]: Starting Passenger core...
+[ 2018-04-17 16:34:39.1546 30275/7f64b6147780 age/Cor/CoreMain.cpp:235 ]: Passenger core running in multi-application mode.
+[ 2018-04-17 16:34:39.1557 30275/7f64b6147780 age/Cor/CoreMain.cpp:732 ]: Passenger core online, PID 30275
+[ 2018-04-17 16:34:39.1693 30280/7f303cb37780 age/Ust/UstRouterMain.cpp:529 ]: Starting Passenger UstRouter...
+[ 2018-04-17 16:34:39.1702 30280/7f303cb37780 age/Ust/UstRouterMain.cpp:342 ]: Passenger UstRouter online, PID 30280
+[Tue Apr 17 16:34:39.223742 2018] [mpm_prefork:notice] [pid 2285] AH00163: Apache/2.4.25 (Debian) mod_fcgid/2.3.9 Phusion_Passenger/5.0.30 OpenSSL/1.0.2l configured -- resuming normal operations
+[Tue Apr 17 16:34:39.223774 2018] [core:notice] [pid 2285] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Apr 17 16:34:39.223801 2018] [mpm_prefork:warn] [pid 2285] AH00167: long lost child came home! (pid 2289)
+[Tue Apr 17 16:34:39.271548 2018] [fcgid:warn] [pid 30296] [client 90.114.111.147:57988] mod_fcgid: stderr: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/local/ispconfig/interface/lib/classes/db_mysql.inc.php:78, referer: http://92.222.217.92:8080/index.php
+[Tue Apr 17 16:34:39.271579 2018] [fcgid:warn] [pid 30296] [client 90.114.111.147:57988] mod_fcgid: stderr: Stack trace:, referer: http://92.222.217.92:8080/index.php
+[Tue Apr 17 16:34:39.271583 2018] [fcgid:warn] [pid 30296] [client 90.114.111.147:57988] mod_fcgid: stderr: #0 /usr/local/ispconfig/interface/lib/app.inc.php(65): db->__construct(), referer: http://92.222.217.92:8080/index.php
+[Tue Apr 17 16:34:39.271586 2018] [fcgid:warn] [pid 30296] [client 90.114.111.147:57988] mod_fcgid: stderr: #1 /usr/local/ispconfig/interface/lib/app.inc.php(340): app->__construct(), referer: http://92.222.217.92:8080/index.php
+[Tue Apr 17 16:34:39.271589 2018] [fcgid:warn] [pid 30296] [client 90.114.111.147:57988] mod_fcgid: stderr: #2 /usr/local/ispconfig/interface/web/datalogstatus.php(34): require_once('/usr/local/ispc...'), referer: http://92.222.217.92:8080/index.php
+[Tue Apr 17 16:34:39.271592 2018] [fcgid:warn] [pid 30296] [client 90.114.111.147:57988] mod_fcgid: stderr: #3 {main}, referer: http://92.222.217.92:8080/index.php
+[Tue Apr 17 16:34:39.271594 2018] [fcgid:warn] [pid 30296] [client 90.114.111.147:57988] mod_fcgid: stderr:   thrown in /usr/local/ispconfig/interface/lib/classes/db_mysql.inc.php on line 78, referer: http://92.222.217.92:8080/index.php
+[Tue Apr 17 16:34:39.333001 2018] [fcgid:warn] [pid 30297] [client 90.114.111.147:57991] mod_fcgid: stderr: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/local/ispconfig/interface/lib/classes/db_mysql.inc.php:78, referer: http://92.222.217.92:8080/index.php
+[Tue Apr 17 16:34:39.333026 2018] [fcgid:warn] [pid 30297] [client 90.114.111.147:57991] mod_fcgid: stderr: Stack trace:, referer: http://92.222.217.92:8080/index.php
+[Tue Apr 17 16:34:39.333030 2018] [fcgid:warn] [pid 30297] [client 90.114.111.147:57991] mod_fcgid: stderr: #0 /usr/local/ispconfig/interface/lib/app.inc.php(65): db->__construct(), referer: http://92.222.217.92:8080/index.php
+[Tue Apr 17 16:34:39.333032 2018] [fcgid:warn] [pid 30297] [client 90.114.111.147:57991] mod_fcgid: stderr: #1 /usr/local/ispconfig/interface/lib/app.inc.php(340): app->__construct(), referer: http://92.222.217.92:8080/index.php
+[Tue Apr 17 16:34:39.333035 2018] [fcgid:warn] [pid 30297] [client 90.114.111.147:57991] mod_fcgid: stderr: #2 /usr/local/ispconfig/interface/web/datalogstatus.php(34): require_once('/usr/local/ispc...'), referer: http://92.222.217.92:8080/index.php
+[Tue Apr 17 16:34:39.333037 2018] [fcgid:warn] [pid 30297] [client 90.114.111.147:57991] mod_fcgid: stderr: #3 {main}, referer: http://92.222.217.92:8080/index.php
+[Tue Apr 17 16:34:39.333039 2018] [fcgid:warn] [pid 30297] [client 90.114.111.147:57991] mod_fcgid: stderr:   thrown in /usr/local/ispconfig/interface/lib/classes/db_mysql.inc.php on line 78, referer: http://92.222.217.92:8080/index.php
+[Tue Apr 17 16:34:39.338172 2018] [fcgid:warn] [pid 30295] [client 90.114.111.147:57992] mod_fcgid: stderr: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /usr/local/ispconfig/interface/lib/classes/db_mysql.inc.php:78, referer: http://92.222.217.92:8080/index.php
+[Tue Apr 17 16:34:39.338219 2018] [fcgid:warn] [pid 30295] [client 90.114.111.147:57992] mod_fcgid: stderr: Stack trace:, referer: http://92.222.217.92:8080/index.php
+[Tue Apr 17 16:34:39.338225 2018] [fcgid:warn] [pid 30295] [client 90.114.111.147:57992] mod_fcgid: stderr: #0 /usr/local/ispconfig/interface/lib/app.inc.php(65): db->__construct(), referer: http://92.222.217.92:8080/index.php
+[Tue Apr 17 16:34:39.338231 2018] [fcgid:warn] [pid 30295] [client 90.114.111.147:57992] mod_fcgid: stderr: #1 /usr/local/ispconfig/interface/lib/app.inc.php(340): app->__construct(), referer: http://92.222.217.92:8080/index.php
+[Tue Apr 17 16:34:39.338236 2018] [fcgid:warn] [pid 30295] [client 90.114.111.147:57992] mod_fcgid: stderr: #2 /usr/local/ispconfig/interface/web/datalogstatus.php(34): require_once('/usr/local/ispc...'), referer: http://92.222.217.92:8080/index.php
+[Tue Apr 17 16:34:39.338241 2018] [fcgid:warn] [pid 30295] [client 90.114.111.147:57992] mod_fcgid: stderr: #3 {main}, referer: http://92.222.217.92:8080/index.php
+[Tue Apr 17 16:34:39.338246 2018] [fcgid:warn] [pid 30295] [client 90.114.111.147:57992] mod_fcgid: stderr:   thrown in /usr/local/ispconfig/interface/lib/classes/db_mysql.inc.php on line 78, referer: http://92.222.217.92:8080/index.php
+
+[ 2018-04-17 16:38:16.5372 30275/7f64af924700 age/Cor/CoreMain.cpp:532 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 16:38:16.5373 30275/7f64b6147780 age/Cor/CoreMain.cpp:901 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 16:38:16.5373 30275/7f64af123700 Ser/Server.h:817 ]: [ApiServer] Freed 0 spare client objects
+[ 2018-04-17 16:38:16.5373 30275/7f64af123700 Ser/Server.h:464 ]: [ApiServer] Shutdown finished
+[ 2018-04-17 16:38:16.5374 30275/7f64af924700 Ser/Server.h:817 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2018-04-17 16:38:16.5374 30275/7f64af924700 Ser/Server.h:464 ]: [ServerThr.1] Shutdown finished
+
+[ 2018-04-17 16:38:16.5378 30280/7f30364ef700 age/Ust/UstRouterMain.cpp:422 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2018-04-17 16:38:16.5379 30280/7f303cb37780 age/Ust/UstRouterMain.cpp:492 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2018-04-17 16:38:16.5379 30280/7f3035cee700 Ser/Server.h:817 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2018-04-17 16:38:16.5379 30280/7f3035cee700 Ser/Server.h:464 ]: [UstRouterApiServer] Shutdown finished
+[ 2018-04-17 16:38:16.5380 30280/7f30364ef700 Ser/Server.h:464 ]: [UstRouter] Shutdown finished
+[ 2018-04-17 16:38:16.5381 30280/7f303cb37780 age/Ust/UstRouterMain.cpp:523 ]: Passenger UstRouter shutdown finished
+[ 2018-04-17 16:38:16.5580 30275/7f64b6147780 age/Cor/CoreMain.cpp:967 ]: Passenger core shutdown finished
+[Tue Apr 17 16:38:16.845017 2018] [mpm_prefork:notice] [pid 2285] AH00169: caught SIGTERM, shutting down
